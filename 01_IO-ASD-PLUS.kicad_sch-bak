@@ -1,0 +1,186 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "38a2da3c-ed29-422f-ab41-066ccf490e61")
+	(paper "A4")
+	(title_block
+		(title "IO-ASD")
+		(company "GRACIDA SISTEMAS INDUSTRIALES")
+	)
+	(lib_symbols)
+	(sheet
+		(at 22.352 24.13)
+		(size 43.434 32.004)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02316654-b7a5-4033-a293-af0194a6badf")
+		(property "Sheetname" "FUENTES"
+			(at 22.352 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FUENTES.kicad_sch"
+			(at 22.352 56.7186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "01_IO-ASD-PLUS"
+				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 220.726 25.4)
+		(size 43.434 32.004)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e698a92-0ed9-457a-8ea3-5be56f6a1bd4")
+		(property "Sheetname" "METAL1-2, FAULT"
+			(at 220.726 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 220.726 57.9886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "01_IO-ASD-PLUS"
+				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.202 24.638)
+		(size 43.434 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c7aeb13-3d5f-43d1-8082-f681ba5c2cbd")
+		(property "Sheetname" "SALIDA 1"
+			(at 92.202 23.9264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SALIDA 1.kicad_sch"
+			(at 92.202 56.9726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "01_IO-ASD-PLUS"
+				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.814 25.146)
+		(size 43.434 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "920ee041-59cb-4a19-b597-ddeac49c1aaf")
+		(property "Sheetname" "ENTRADAS"
+			(at 162.814 24.4344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ENTRADAS.kicad_sch"
+			(at 162.814 57.4806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "01_IO-ASD-PLUS"
+				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

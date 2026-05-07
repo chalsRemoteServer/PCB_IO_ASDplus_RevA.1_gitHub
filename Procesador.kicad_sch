@@ -1,0 +1,29 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "94a65f46-1590-4cf6-96fc-7dd060227c52")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 38.1 83.82) (xy 53.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218aae01-a369-4bcb-a7a2-ec47c1fd66f0")
+	)
+	(hierarchical_label "VRUN_U6"
+		(shape output)
+		(at 38.1 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4db3dc64-5e53-470b-810d-2dc48eac3226")
+	)
+)
