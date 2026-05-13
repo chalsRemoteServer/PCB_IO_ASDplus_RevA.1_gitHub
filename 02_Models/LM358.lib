@@ -1,0 +1,51 @@
+* LM358 Dual Operational Amplifier Macromodel
+* National Semiconductor
+* Connections:
+*   3 - Non-Inverting Input
+*   2 - Inverting Input
+*   8 - Positive Power Supply (VCC+)
+*   4 - Negative Power Supply (VCC-)
+*   1 - Output
+
+.SUBCKT LM358 3 2 8 4 1
+
+* Input Stage
+Q1 6 1 7 QP
+Q2 8 2 7 QP
+I1 3 7 100E-6
+R1 6 3 100E3
+R2 8 3 100E3
+
+* Level Shift
+Q3 9 6 10 QN
+Q4 11 8 12 QN
+R3 9 3 1E3
+R4 11 3 1E3
+I2 10 4 50E-6
+I3 12 4 50E-6
+
+* Gain Stage
+Q5 13 9 14 QN
+Q6 13 11 15 QN
+R5 13 3 100E3
+I4 14 4 100E-6
+I5 15 4 100E-6
+
+* Output Stage
+Q7 5 13 3 QP
+Q8 5 16 4 QN
+R6 16 17 25
+D1 5 3 DX
+D2 4 5 DX
+V1 17 13 0.6
+
+* Frequency Compensation
+C1 9 0 30P
+C2 11 0 30P
+
+* Models
+.MODEL QP PNP(BF=100)
+.MODEL QN NPN(BF=100)
+.MODEL DX D(IS=1E-15)
+
+.ENDS LM358

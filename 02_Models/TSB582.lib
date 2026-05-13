@@ -1,0 +1,210 @@
+****************************************************************************
+*
+* WARNING : please consider following remarks before usage
+*
+* 1) All models are a tradeoff between accuracy and complexity (ie. simulation
+*    time).
+*
+* 2) Macromodels are not a substitute to breadboarding, they rather confirm the
+*    validity of a design approach and help to select surrounding component values.
+*
+* 3) A macromodel emulates the NOMINAL performance of a TYPICAL device within
+*    SPECIFIED OPERATING CONDITIONS (ie. temperature, supply voltage, etc.).
+*    Thus the macromodel is often not as exhaustive as the datasheet, its goal
+*    is to illustrate the main parameters of the product.
+*
+* 4) Data issued from macromodels used outside of its specified conditions
+*    (Vcc, Temperature, etc) or even worse: outside of the device operating
+*    conditions (Vcc, Vicm, etc) are not reliable in any way.
+*
+****************************************************************************
+****
+***  TSB581 (single opamp of TSB582) PSpice macromodel subckt 
+***
+***   December 2022 (v1.0) 
+****                      
+****** CONNECTIONS: 
+****                  NON-INVERTING INPUT
+****                    |  INVERTING INPUT
+****                    |   |     POSITIVE POWER SUPPLY
+****                    |   |      |      NEGATIVE POWER SUPPLY
+****                    |   |      |       |     OUTPUT  
+****                    |   |      |       |      |     
+****                    |   |      |       |      |    
+.SUBCKT  TSB581        VP  VM    VCCP    VCCN     VS
+    FIOUT 0 VZOUT VREADIO 1.0
+    LOUT VZOUT 0 {LOUT}
+    G_IIB_VM VM VREF VALUE={2p}
+    G_ICC VCCP VCCN POLY(1) VCCP VCCN 0.0022753917050691254
++1.881720430107221E-6 -2.4001536098307825E-7 9.600614439323649E-9
+    G_IIB_VP VP VREF VALUE={2p}
+    G_I_IO VB_2 VREF VALUE={V(VB_Vref)*GB*( 5.0*( 1 -
++exp(-abs(V(v_Io_val))/2m )) )  }
+    G_I_VB VB_2 VREF VB_VREF 0 {GB}
+    GM1 VREF VB VOUT_DIFF__SR_VCC 0 {1/RD}
+    G_IOUT_SOURCED VCCP 0 VALUE={IF(I(VreadIo)>0, I(VreadIo),0)}
+    G_ICCSAT_OUTLOW VCCP VCCN VALUE={IF(I(V_OUTVLIM_LOW)>1u ,
++V(Icc_out_low) , 0)}
+    G_ICCSAT_OUTHIGH VCCP VCCN VALUE={IF(I(V_OUTVLIM_HIGH)>1u ,
++V(Icc_out_high), 0)}
+    G_IOUT_SINKED VCCN 0 VALUE={IF(I(VreadIo)>0, 0, I(VreadIo))}
+    RN1 VN_PLUS 0 R_NOISE {RN}
+    RN2 VN_MINUS 0 R_NOISE {RN}
+    R_R1 VB VREF R_NO_NOISE {R1} 
+    RO2_1 VB_2 VREF R_NO_NOISE {RO2_1} 
+    RZOUT_IOUT_COEFF VZOUT_IOUT_COEFF NET0363 R_NO_NOISE 50 
+    RPROT_IN_P_VCCP NET421 VCCP R_NO_NOISE 100 
+    RPROT_IN_M_VCCP VCCP NET253 R_NO_NOISE 100 
+    R_ICCSAT_LOW ICC_OUT_LOW 0 R_NO_NOISE 1K 
+    RO2_2 VB_3 VB_2 R_NO_NOISE {RO2_2} 
+    RIN_CM_VM VREF VM R_NO_NOISE {RIN_CM_VM} 
+    RIN_CM_VP VREF VP R_NO_NOISE {RIN_CM_VP} 
+    RPROT_IN_P_VCCN NET406 VCCN R_NO_NOISE 15K 
+    ROUT NET0584 VZOUT R_NO_NOISE {ROUT} 
+    R2_REF NET247 NET241 R_NO_NOISE 1Meg 
+    RPROT_IN_M_VCCN VCCN NET243 R_NO_NOISE 15K 
+    R_ICCSAT_HIGH ICC_OUT_HIGH 0 R_NO_NOISE 1K 
+    R1_REF NET287 NET247 R_NO_NOISE 1Meg 
+    RD2 VCCP_ENHANCED VO_DIFF_MINUS R_NO_NOISE {RD} 
+    RD1 VCCP_ENHANCED VO_DIFF_PLUS R_NO_NOISE {RD} 
+    RIN_DIFF VP VM R_NO_NOISE {RIN_DIFF} 
+    EN NET0190 VP VN_PLUS VN_MINUS 1.0
+    EVLIM_HIGH_VOUT NET408 0 VALUE={V(VCCP) - V(Ro1_Voh)*I(VreadIo) -
++V(VOH_noRL) }
+    E_RO1_VOH RO1_VOH 0 VALUE={8}
+    E62 NET0123 0 VALUE={V(Vref) + V(alpha_desat_time)*V(Vccp,Vccn) }
+    EMEAS_VB_VREF VB_VREF 0 VB VREF 1.0
+    E1_REF NET287 0 VCCP 0 1.0
+    E_VDEP_SINK_1 VAL_VDEP_SINK 0 VALUE={ -999.5 -5000*I(VreadIo)}
+    E60 NET0185 0 VALUE={V(Vref) - V(alpha_desat_time)*V(Vccp,Vccn) } 
+    E_ICCSAT_LOW ICC_OUT_LOW 0 VALUE={0}
+    E_VDEP_SINK_3 VDEP_SINK 0 VALUE={IF( V(Vccp,Vccn)<VCC_MIN , 0 ,
++V(val_vdep_sink_filtered))}
+    E_VDEP_SOURCE_1 VAL_VDEP_SOURCE 0 VALUE={ +999.5 -5000*I(VreadIo)}
+    E_VDEP_SOURCE_3 VDEP_SOURCE 0 VALUE={IF( V(Vccp,Vccn)<VCC_MIN , 0 ,
++V(val_vdep_source_filtered))}
+    E_READIO V_IO_VAL 0 VALUE={I(VreadIo)}
+    E_ICCSAT_HIGH ICC_OUT_HIGH 0 VALUE={0}
+    E_VDEP_SINK_2 VAL_VDEP_SINK_FILTERED 0
++VALUE={IF(V(val_vdep_sink)<=0 , 0 , V(val_vdep_sink))}
+    E_SR_VCC_MODULATION VOUT_DIFF__SR_VCC 0 VALUE={V(Vout_diff)*(
++0.6933517154719288 + 0.045909426558217836*V(Vccp,Vccn)
++-0.0026853879230607017*V(Vccp,Vccn)*V(Vccp,Vccn) +
++(6.937793797871119E-5)*V(Vccp,Vccn)*V(Vccp,Vccn)*V(Vccp,Vccn) +
++(-6.565557795712102E-7)*V(Vccp,Vccn)*V(Vccp,Vccn)*V(Vccp,Vccn)*V(Vccp,Vccn)
++ )}
+    E_VREF VREF 0 NET247 0 1.0
+    E64 ALPHA_DESAT_TIME 0 POLY(1) VCCP VCCN 0.779176813000244
++-0.08312457353060107 0.0038396283046325777 -7.939826043603731E-5
++6.082073463228078E-7
+    EILIM_SOURCE VB_3_SOURCE VDEP_SOURCE VB_3 0 1.0
+    EZOUT_IOUT_COEFF NET0363 0 VALUE={1.0}
+    EILIM_SINK VB_3_SINK VDEP_SINK VB_3 0 1.0
+    E2_REF NET241 0 VCCN 0 1.0
+    EMEAS_VOUT_DIFF VOUT_DIFF 0 VO_DIFF_PLUS VO_DIFF_MINUS 1.0
+    E_VDEP_SOURCE_2 VAL_VDEP_SOURCE_FILTERED 0
++VALUE={IF(V(val_vdep_source)>=0, 0, V(val_vdep_source))}
+    EZOUT_VCC_COEFF VZOUT_VCC_COEFF 0 VALUE={1}
+    E1 VOH_NORL 0 VALUE={0}
+    EVLIM_LOW_VOUT NET411 0 VALUE={V(VCCN) - V(Ro1_Vol)*I(VreadIo) +
++V(VOL_noRL) }
+    EZOUT VB_3 NET045
++VALUE={V(VZout)*V(VZout_Iout_coeff)*V(VZout_Vcc_coeff)}
+    E_VOL_NORL VOL_NORL 0 VALUE={0}
+    E_RO1_VOL RO1_VOL 0 VALUE={8}
+    C_RO2_1 VB_2 VREF {C_RO2_1}
+    COUT2 VZOUT 0 {COUT2}
+    CCOMP VB VB_2 {CCOMP}
+    CIN_CM_VP VP VREF {CIN_CM_VP}
+    CZOUT_IOUT_COEFF VZOUT_IOUT_COEFF 0 1n
+    CIN_DIFF VM VP {CIN_DIFF}
+    CIN_CM_VM VM VREF {CIN_CM_VM}
+    CDIFF_PARASITIC VO_DIFF_PLUS VO_DIFF_MINUS {C_DIFF_PARASITIC}
+    COUT NET0584 0 {COUT}
+    DN1 NET086 VN_PLUS DN
+    DN2 NET085 VN_MINUS DN
+    D29 NET0207 VB DIODE_NOVd
+    D28 VB NET0188 DIODE_NOVd
+    DILIM_SOURCE VB_3 VB_3_SOURCE DIODE_ILIM
+    DPROT_IN_P_VCCN NET405 NET423 DIODE_VLIM
+    DPROT_IN_M_VCCN NET409 VM DIODE_VLIM
+    D_OUTVLIM_HIGH VB_3 NET382 DIODE_NOVd
+    D_OUTVLIM_LOW NET412 VB_3 DIODE_NOVd
+    DPROT_IN_M_VCCP VM NET398 DIODE_VLIM
+    DPROT_IN_P_VCCP NET423 NET388 DIODE_VLIM
+    DILIM_SINK VB_3_SINK VB_3 DIODE_ILIM
+    VD_DN1 NET086 0 DC 100.0m
+    VD_DN2 NET085 0 DC 100.0m
+    V57 NET0185 NET0207 DC {VD_COMPENSAZIONE}
+    V_ENHANCE_VCCP VCCP_ENHANCED VCCP DC {VCCP_ENHANCE}
+    V_OUTVLIM_HIGH NET382 NET408 DC {VD_COMPENSAZIONE}
+    VPROT_IN_P_VCCN NET405 NET406 DC {V_DPROT}
+    VREADIO NET045 VS DC 0
+    VPROT_IN_M_VCCN NET409 NET243 DC {V_DPROT}
+    V_OUTVLIM_LOW NET411 NET412 DC {VD_COMPENSAZIONE}
+    VOS NET423 NET0190 DC 0
+    VPROT_IN_P_VCCP NET421 NET388 DC {V_DPROT}
+    V_ENHANCE_VCCN VCCN_ENHANCED VCCN DC {VCCN_ENHANCE}
+    VPROT_IN_M_VCCP NET253 NET398 DC {V_DPROT}
+    V56 NET0188 NET0123 DC {VD_COMPENSAZIONE}
+    M_NMOS1 VO_DIFF_PLUS NET423 VEE_N VCCN_ENHANCED MOS_N L={L} W={W}
+    M_NMOS2 VO_DIFF_MINUS VM VEE_N VCCN_ENHANCED MOS_N L={L} W={W}
+    I_IEE VEE_N VCCN_ENHANCED DC {IEE}
+	
+*******************************************************************************
+*
+* MODELS/SUBCKTS and PARAMS used by TSB581 subckt:
+*
+
+.PARAM VCC_MIN=1.5
+.PARAM RINCM=9.6844E+09
+.PARAM CINCM=5.7343E-12
+.PARAM RIN_CM_VM={2*RINCM}
+.PARAM RIN_CM_VP={2*RINCM}
+.PARAM CIN_CM_VM={CINCM/2}
+.PARAM CIN_CM_VP={CINCM/2}
+.PARAM RINDIFF=6.9817E+08
+.PARAM CINDIFF=1.0548E-11
+.PARAM RIN_DIFF={(2*RINCM*RINDIFF)/(2*RINCM - RINDIFF)}
+.PARAM CIN_DIFF={CINDIFF - CINCM/2}
+.PARAM RD=1k
+.PARAM VCCP_enhance=150m
+.PARAM VCCN_enhance=-1100m
+.PARAM GB=24.83m
+.PARAM Ro = 2.4974E+05
+.PARAM A0 = 40e6
+.PARAM Ccomp=10p
+.PARAM IEE=20u
+.PARAM W=3.94u
+.PARAM L=1u
+.PARAM gm_mos=1.9860E-04
+.PARAM C_diff_parasitic=4p
+.PARAM C_Ro2_1=450p
+.PARAM Lout  = 0.8u
+.PARAM Rout  = 120
+.PARAM Cout  = 2n
+.PARAM Cout2 = 15p
+.PARAM Ro2_2=1e-3
+.PARAM Ro2_1={ Ro - Ro2_2}
+.PARAM R1={A0/(gm_mos*GB*Ro2_1)}
+.PARAM V_DPROT=150m
+.PARAM Vd_compensazione=-788.4u
+.PARAM RN=57k
+.MODEL DN D AF=1 KF=0.4e-11
+
+.MODEL R_NO_NOISE RES T_ABS=-273
+.MODEL R_NOISE    RES T_ABS=+27
+.MODEL MOS_N  NMOS LEVEL=1  VTO=+0.65  KP=500E-6  T_ABS=+27
+.MODEL DIODE_NOVd D LEVEL=1  IS=10E-15 N=0.001
+.MODEL DIODE_VLIM D LEVEL=1  IS=0.8E-15
+.MODEL DIODE_ILIM D LEVEL=1  IS=0.8E-15
+*******************************************************************************
+
+.ENDS TSB581
+*** End of subcircuit definition.
+    
+
+
+
+
+

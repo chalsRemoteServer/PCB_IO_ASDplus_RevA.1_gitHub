@@ -1,0 +1,60 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "76aefcd4-4396-4f42-a00b-67173fabb921")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "USB_Power_Switcher"
+		(shape input)
+		(at 21.59 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.6764 1.6764)
+				(thickness 0.3353)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "19ab598b-2804-4a7f-8390-862e9774e8a8")
+		(property "desc" "USB host port external VBUS power switcher. Active low"
+			(at 21.59 58.293 0)
+			(effects
+				(font
+					(size 0.6096 0.6096)
+					(thickness 0.1219)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "USB_Current_Status"
+		(shape input)
+		(at 21.59 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.6764 1.6764)
+				(thickness 0.3353)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "acdd38a3-d5ae-4f82-b351-43abab44d0bc")
+		(property "desc" "USB host port external VBUS power switcher. Active low"
+			(at 21.59 64.643 0)
+			(effects
+				(font
+					(size 0.6096 0.6096)
+					(thickness 0.1219)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+)

@@ -10056,17 +10056,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 279.4) (xy 271.78 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 194 1)
-		)
-		(uuid "19165ccd-0a93-478d-a911-cf3755fe2f75")
-	)
-	(wire
-		(pts
 			(xy 177.8 168.91) (xy 179.07 168.91)
 		)
 		(stroke
@@ -12518,7 +12507,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 123.19) (xy 119.38 152.4)
+			(xy 119.38 123.19) (xy 119.38 144.78)
 		)
 		(stroke
 			(width 0)
@@ -13776,17 +13765,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 238.76) (xy 271.78 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 194 1)
-		)
-		(uuid "8a151c53-3aa7-4bfa-afb7-57d05414d0a6")
-	)
-	(wire
-		(pts
 			(xy 26.67 386.08) (xy 26.67 388.62)
 		)
 		(stroke
@@ -13910,16 +13888,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 233.68) (xy 289.56 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ca31f2e-c563-46bb-b4c9-bb850dabed6b")
-	)
-	(wire
-		(pts
 			(xy 393.7 373.38) (xy 396.24 373.38)
 		)
 		(stroke
@@ -13927,17 +13895,6 @@
 			(type default)
 		)
 		(uuid "8e896fb7-9877-4426-9c9b-70a7405082e5")
-	)
-	(wire
-		(pts
-			(xy 15.24 152.4) (xy 119.38 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 194 1)
-		)
-		(uuid "8ec62796-4332-4416-9c23-f9e4b6754040")
 	)
 	(wire
 		(pts
@@ -15922,17 +15879,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 238.76) (xy 271.78 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 194 1)
-		)
-		(uuid "c4527aac-6c35-4dc1-a1a8-0555b950a870")
-	)
-	(wire
-		(pts
 			(xy 106.68 261.62) (xy 106.68 217.17)
 		)
 		(stroke
@@ -16703,17 +16649,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 279.4) (xy 15.24 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 194 1)
-		)
-		(uuid "d6e6da70-df42-4a6e-a7b2-f809f3991679")
-	)
-	(wire
-		(pts
 			(xy 363.22 464.82) (xy 363.22 443.23)
 		)
 		(stroke
@@ -17195,6 +17130,17 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 144.78) (xy 119.38 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 155 77 165 1)
+		)
+		(uuid "e46c9bf1-c32d-4093-a43c-241063328d61")
+	)
+	(wire
+		(pts
 			(xy 321.31 222.25) (xy 321.31 217.17)
 		)
 		(stroke
@@ -17569,16 +17515,6 @@
 			(type default)
 		)
 		(uuid "ee0aa1a0-4d29-44e3-8ad7-3a9606cbd155")
-	)
-	(wire
-		(pts
-			(xy 285.75 236.22) (xy 289.56 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee65e2c1-ef81-42b6-a827-310fe0810889")
 	)
 	(wire
 		(pts
@@ -21966,7 +21902,7 @@
 		)
 	)
 	(hierarchical_label "METAL1_RELE"
-		(shape output)
+		(shape input)
 		(at 323.85 233.68 0)
 		(effects
 			(font
@@ -22015,17 +21951,6 @@
 			)
 		)
 	)
-	(hierarchical_label "METAL1_SIGNAL"
-		(shape input)
-		(at 285.75 233.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4ca1fcb5-cc11-45dc-aaa4-65b81375b783")
-	)
 	(hierarchical_label "Error_ULN_Fault_+24v"
 		(shape output)
 		(at 302.26 209.55 180)
@@ -22048,8 +21973,23 @@
 			)
 		)
 	)
+	(hierarchical_label "STO:Conveyor Stop 3v3 J8"
+		(shape input)
+		(at 105.41 144.78 180)
+		(effects
+			(font
+				(face "Courier New")
+				(size 1.9558 1.9558)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 194 1)
+			)
+			(justify right)
+		)
+		(uuid "53e6bb53-4f86-4bca-98db-040a3435c0af")
+	)
 	(hierarchical_label "FAULT_RELE"
-		(shape output)
+		(shape input)
 		(at 323.85 238.76 0)
 		(effects
 			(font
@@ -22201,7 +22141,7 @@
 		)
 	)
 	(hierarchical_label "METAL2_RELE"
-		(shape output)
+		(shape input)
 		(at 323.85 236.22 0)
 		(effects
 			(font
@@ -22213,17 +22153,6 @@
 			(justify left)
 		)
 		(uuid "9f38901e-f5f9-49b8-ab13-0252b572a70b")
-	)
-	(hierarchical_label "METAL2_SIGNAL"
-		(shape input)
-		(at 285.75 236.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b95004bf-bc92-47fc-8f61-7600a015a14b")
 	)
 	(hierarchical_label "DA0_Analog"
 		(shape input)

@@ -1,4 +1,4 @@
-27262885267405299
+27282442600998094
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2813,6 +2813,62 @@ speaker CUI
 0
 2
 2
+CONECTORES GRACIDA
+2POS-PITCH3.5MM
+1604470000-2
+Connector
+0
+2
+2
+CONECTORES GRACIDA
+3POS-5.08PITCH
+1147330000
+Connector
+0
+3
+3
+CONECTORES GRACIDA
+8POS-2LINEAS-3.5MM
+1728800000
+Connector
+0
+8
+8
+CONECTORES GRACIDA
+16POS-2LINEAS-3.5PITCH
+1728840000-1
+Connector
+0
+16
+16
+CONECTORES GRACIDA
+1728810000
+1728810000
+Connector
+0
+10
+10
+CONECTORES GRACIDA
+1728840000
+1728840000-1
+Connector
+0
+16
+16
+CONECTORES GRACIDA
+1728840000_17-25
+1728840000-1
+Connector
+0
+16
+16
+CONECTORES GRACIDA
+1728840000_33-48
+1728840000-1
+Connector
+0
+16
+16
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -108079,3 +108135,24 @@ Varistor VF
 0
 2
 2
+footprints
+LQFP_100_14X14X1P4_BRI
+
+FT900L-C-T 
+0
+100
+100
+footprints
+LQFP_100_14X14X1P4_BRI-L
+
+FT900L-C-T 
+0
+100
+100
+footprints
+LQFP_100_14X14X1P4_BRI-M
+
+FT900L-C-T 
+0
+100
+100

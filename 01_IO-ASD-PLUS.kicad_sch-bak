@@ -9,9 +9,19 @@
 		(company "GRACIDA SISTEMAS INDUSTRIALES")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 66.04 106.68) (xy 88.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3d8a42-a753-4227-aeca-9a3697f68eab")
+	)
 	(sheet
-		(at 22.352 24.13)
-		(size 43.434 32.004)
+		(at 24.638 102.362)
+		(size 41.402 32.004)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -26,7 +36,7 @@
 		)
 		(uuid "02316654-b7a5-4033-a293-af0194a6badf")
 		(property "Sheetname" "FUENTES"
-			(at 22.352 23.4184 0)
+			(at 24.638 101.6504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,12 +45,22 @@
 			)
 		)
 		(property "Sheetfile" "FUENTES.kicad_sch"
-			(at 22.352 56.7186 0)
+			(at 24.638 134.9506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VRUN_U6" input
+			(at 66.04 106.68 0)
+			(uuid "911a3d15-2a58-4a81-9ac5-aa78da1e118f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -94,8 +114,60 @@
 		)
 	)
 	(sheet
-		(at 92.202 24.638)
-		(size 43.434 31.75)
+		(at 88.9 91.948)
+		(size 54.864 64.008)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "47b626b2-f3da-43c3-a614-3ce0196b783a")
+		(property "Sheetname" "Processador"
+			(at 88.9 91.2364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Procesador.kicad_sch"
+			(at 88.9 156.5406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VRUN_U6" output
+			(at 88.9 106.68 180)
+			(uuid "731fbf5c-76c3-4b24-8f3f-661199b1e115")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "01_IO-ASD-PLUS"
+				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 23.876 48.26)
+		(size 43.434 42.545)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -109,22 +181,205 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "8c7aeb13-3d5f-43d1-8082-f681ba5c2cbd")
-		(property "Sheetname" "SALIDA 1"
-			(at 92.202 23.9264 0)
+		(property "Sheetname" "SALIDA J5 y J6"
+			(at 23.876 47.0658 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Bookman Old Style")
+					(size 2.2352 2.2352)
+					(thickness 0.2794)
+					(color 0 0 255 1)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "SALIDA 1.kicad_sch"
-			(at 92.202 56.9726 0)
+			(at 23.876 91.3896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "!CS_MCP23S7_SS_1_J5" input
+			(at 67.31 70.612 0)
+			(uuid "3178a5cf-aaa0-4659-8941-7f3bbb40bdb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BIN:BIN-MONITOR_3V3_J7" input
+			(at 67.31 74.422 0)
+			(uuid "aeab3485-baf2-471a-82b9-b9a8dc7b36f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DA0_Analog" input
+			(at 67.31 76.962 0)
+			(uuid "fb770e3b-3a2f-44a8-a8c1-c87bdef71372")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DA1_Analog" input
+			(at 67.31 80.772 0)
+			(uuid "ef3c097d-b01b-4a4f-919a-5c961018439b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Error_LAMP_Fault_+24v" output
+			(at 67.31 83.312 0)
+			(uuid "ddb17da1-5bf6-4b66-a91c-d569bb6dd695")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN1_MO1" input
+			(at 67.31 85.852 0)
+			(uuid "35fbebe2-6087-41ae-bfa1-a1e53bfa10d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN2_MO2" input
+			(at 67.31 88.392 0)
+			(uuid "0a9fe941-f000-4f53-91be-c5993cfa62ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN3_MO3" input
+			(at 67.31 68.072 0)
+			(uuid "948fa110-2909-4b97-a4ec-f1c7ea1e98a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN4_MO4" input
+			(at 67.31 65.532 0)
+			(uuid "d0a5751e-bdd2-4044-88d5-9af371ee01ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INTA_MCP23S17_SS" output
+			(at 67.31 62.992 0)
+			(uuid "f9b91dd4-539d-4f03-90c8-909620be4ec7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO_MCP23S7_SS_1_J5" output
+			(at 67.31 59.69 0)
+			(uuid "f8a9a606-14de-4d60-8fc2-25d291d0c9b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI_MCP23S7_SS_1_J5" input
+			(at 67.31 57.15 0)
+			(uuid "21be55bb-5aa2-42e3-b008-4dddb90342bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK_MCP23S7-SS_1_J5" input
+			(at 67.31 54.61 0)
+			(uuid "5c458ffd-4bb7-49fb-9d58-fbe372cc191d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STO:Conveyor Stop 3v3 J8" input
+			(at 67.31 50.8 0)
+			(uuid "452ec9e3-4519-4fea-8a49-3ab3044c5b34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Error_ULN_Fault_+24v" output
+			(at 23.876 77.47 180)
+			(uuid "34b5701f-9c01-48f8-8684-caadb1cf84f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAULT_RELE" input
+			(at 23.876 59.69 180)
+			(uuid "2afda9ac-af38-478a-9327-01da531c8a6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "METAL1_RELE" input
+			(at 23.876 66.04 180)
+			(uuid "a6e9c8e1-182f-4a23-957e-f5969a6bed08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "METAL2_RELE" input
+			(at 23.876 69.85 180)
+			(uuid "60ff7693-5b5a-4f5e-b16d-871866dea804")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -492,7 +492,14 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Processador/D+_H_P": [
+        "USB  data"
+      ],
+      "/Processador/D-_H_N": [
+        "USB  data"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -573,14 +580,194 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field13",
+          "name": "Field13",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label",
+          "name": "Label",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_PART_NUMBER",
+          "name": "MANUFACTURER_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PartNumber",
+          "name": "PartNumber",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VENDOR",
+          "name": "VENDOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "corriente ",
+          "name": "corriente ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "value",
+          "name": "value",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referencia"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -609,7 +796,15 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": "01_IO-ASD-PLUS.wbk"
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -629,7 +824,7 @@
     ],
     [
       "2e698a92-0ed9-457a-8ea3-5be56f6a1bd4",
-      "METAL1-2, FAULT"
+      "Reles"
     ],
     [
       "02316654-b7a5-4033-a293-af0194a6badf",
@@ -637,7 +832,7 @@
     ],
     [
       "8c7aeb13-3d5f-43d1-8082-f681ba5c2cbd",
-      "SALIDA 1"
+      "SALIDA J5 y J6"
     ],
     [
       "920ee041-59cb-4a19-b597-ddeac49c1aaf",
@@ -646,6 +841,10 @@
     [
       "47b626b2-f3da-43c3-a614-3ce0196b783a",
       "Processador"
+    ],
+    [
+      "8d296a6f-d65d-491e-bf56-0b9d64795b89",
+      "USB"
     ]
   ],
   "text_variables": {}

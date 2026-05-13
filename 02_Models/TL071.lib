@@ -1,0 +1,48 @@
+* TL071 OPERATIONAL AMPLIFIER MACROMODEL
+* REV. B   Copyright 1990 by Texas Instruments Incorporated
+* All rights reserved.  This model is provided “as is”.  Texas Instruments
+* makes no warranty, expressed or implied, that the model is correct.
+* Connections:
+*   1 - Offset Null 1
+*   2 - Inverting Input
+*   3 - Non-Inverting Input
+*   4 - VCC-
+*   5 - Offset Null 2
+*   6 - Output
+*   7 - VCC+
+*   8 - NC
+*
+.SUBCKT TL071 1 2 3 4 5 6 7
+*
+* INPUT STAGE
+Q1 9 3 10 QN
+Q2 8 2 11 QN
+I1 7 10 100E-6
+I2 7 11 100E-6
+RC1 7 8 25E3
+RC2 7 9 25E3
+VOS 1 12 DC 0
+R1 12 13 1K
+R2 13 7 1K
+*
+* GAIN STAGE
+Q3 14 8 4 QP
+Q4 15 9 16 QP
+I3 7 14 100E-6
+I4 7 15 100E-6
+R3 16 4 5E3
+CC 7 8 30P
+C1 7 15 30P
+*
+* OUTPUT STAGE
+Q5 6 14 17 QN
+Q6 6 15 18 QP
+I5 17 4 1.5E-3
+I6 7 18 1.5E-3
+D1 7 6 DX
+D2 6 4 DX
+*
+.MODEL QN NPN(BF=2.5E3)
+.MODEL QP PNP(BF=2.5E3)
+.MODEL DX D(IS=1E-15)
+.ENDS TL071
