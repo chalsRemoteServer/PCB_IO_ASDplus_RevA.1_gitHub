@@ -8,7 +8,110 @@
 		(title "IO-ASD")
 		(company "GRACIDA SISTEMAS INDUSTRIALES")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "CONECTORES GRACIDA:1-215079-0_microMatch10P_1.27mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1-215079-0_microMatch10P_1.27mm_0_1"
+				(rectangle
+					(start 0.508 -1.016)
+					(end 8.89 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 85.09 171.45) (xy 88.9 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066f66a9-2ca0-425b-ae91-bd63724170c6")
+	)
+	(wire
+		(pts
+			(xy 66.04 36.83) (xy 96.52 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1958f227-3c03-41d8-8b2f-285fc34602ac")
+	)
+	(wire
+		(pts
+			(xy 80.01 179.07) (xy 88.9 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1979cf1c-2f39-4ea1-a190-098fad051ad8")
+	)
+	(wire
+		(pts
+			(xy 124.46 161.29) (xy 124.46 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a298a56-9ce5-4e04-b3e2-d9efc64c25f6")
+	)
 	(wire
 		(pts
 			(xy 66.04 106.68) (xy 88.9 106.68)
@@ -18,6 +121,260 @@
 			(type default)
 		)
 		(uuid "3f3d8a42-a753-4227-aeca-9a3697f68eab")
+	)
+	(wire
+		(pts
+			(xy 88.9 173.99) (xy 82.55 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd3b280-65c8-4da3-80b1-bbe26d79219f")
+	)
+	(wire
+		(pts
+			(xy 80.01 146.05) (xy 80.01 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e735cbb-71a6-4d23-bab6-ff223297e522")
+	)
+	(wire
+		(pts
+			(xy 120.65 156.21) (xy 120.65 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d0237e5-a870-49a4-95ec-64e7bebad9ed")
+	)
+	(wire
+		(pts
+			(xy 66.04 34.29) (xy 96.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bc0856d-e318-42c9-9f0c-0790e80c7c20")
+	)
+	(wire
+		(pts
+			(xy 85.09 153.67) (xy 85.09 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d13cb8a-b5f5-4fdd-828a-b63fdd7d1c20")
+	)
+	(wire
+		(pts
+			(xy 88.9 176.53) (xy 81.28 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b736a52-9101-48d1-9b72-6eb23bf01da7")
+	)
+	(wire
+		(pts
+			(xy 82.55 173.99) (xy 82.55 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbe98d0-7545-4ce9-b836-74a0cf680f02")
+	)
+	(wire
+		(pts
+			(xy 125.73 168.91) (xy 125.73 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923cfdc1-ae57-4f10-ad71-e22c60d735fc")
+	)
+	(wire
+		(pts
+			(xy 123.19 168.91) (xy 125.73 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adbcdfc-dc18-4593-a273-c74e149918df")
+	)
+	(wire
+		(pts
+			(xy 123.19 160.02) (xy 125.73 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e08a68-663e-4f7b-959a-d8cddfe9cac1")
+	)
+	(wire
+		(pts
+			(xy 88.9 146.05) (xy 80.01 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d13cea-46a5-4be7-8a10-cfa73abecb07")
+	)
+	(wire
+		(pts
+			(xy 66.04 39.37) (xy 96.52 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc733621-73e2-49c7-96c1-64c5879ad719")
+	)
+	(wire
+		(pts
+			(xy 120.65 161.29) (xy 124.46 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d695d8-cf09-446c-8796-17265809282c")
+	)
+	(wire
+		(pts
+			(xy 82.55 151.13) (xy 88.9 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a57f3d-88dd-4f7b-a63a-b6401393a980")
+	)
+	(wire
+		(pts
+			(xy 124.46 166.37) (xy 123.19 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f90ea4-7f12-452a-96dd-e02ecc3b84e1")
+	)
+	(wire
+		(pts
+			(xy 81.28 148.59) (xy 88.9 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d287a750-42ae-4d78-8b34-54f28f0c72c0")
+	)
+	(wire
+		(pts
+			(xy 88.9 153.67) (xy 85.09 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7d813d-b657-4099-89fd-60a6d8e808e7")
+	)
+	(wire
+		(pts
+			(xy 123.19 160.02) (xy 123.19 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b3230d-77e8-4c8f-a9fb-151092f55c78")
+	)
+	(wire
+		(pts
+			(xy 81.28 176.53) (xy 81.28 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac4ce6e-5900-4000-bd5b-e55f4259aaa1")
+	)
+	(symbol
+		(lib_id "CONECTORES GRACIDA:1-215079-0_microMatch10P_1.27mm")
+		(at 110.49 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c62e8db-fa75-49b7-9f2b-dc65a007169a")
+		(property "Reference" "CN1"
+			(at 120.65 115.4429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 120.65 117.9829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 24.638 102.362)
@@ -72,7 +429,7 @@
 		)
 	)
 	(sheet
-		(at 220.726 25.4)
+		(at 96.52 19.304)
 		(size 43.434 32.004)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -87,8 +444,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2e698a92-0ed9-457a-8ea3-5be56f6a1bd4")
-		(property "Sheetname" "METAL1-2, FAULT"
-			(at 220.726 24.6884 0)
+		(property "Sheetname" "Reles"
+			(at 96.52 18.5924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97,12 +454,42 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 220.726 57.9886 0)
+			(at 96.52 51.8926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "FAULT_RELE" input
+			(at 96.52 34.29 180)
+			(uuid "93b12f1e-cef8-4db7-bc9d-4598c9de4fc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "METAL1_RELE" input
+			(at 96.52 36.83 180)
+			(uuid "42f659f3-dee4-427e-affb-5c2092009b31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "METAL2_RELE" input
+			(at 96.52 39.37 180)
+			(uuid "a2c90ef5-9ea5-4d73-8b74-74dbd8f29123")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -115,7 +502,7 @@
 	)
 	(sheet
 		(at 88.9 91.948)
-		(size 54.864 64.008)
+		(size 54.864 64.262)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -139,7 +526,7 @@
 			)
 		)
 		(property "Sheetfile" "Procesador.kicad_sch"
-			(at 88.9 156.5406 0)
+			(at 88.9 156.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,6 +544,66 @@
 				(justify left)
 			)
 		)
+		(pin "USB_Power_Switcher" output
+			(at 88.9 153.67 180)
+			(uuid "1aa566dd-3b0b-475b-8a3b-578ddcb47f4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_Current_Status" output
+			(at 88.9 151.13 180)
+			(uuid "5a17ff0c-0266-4ad4-a47e-577f3beb08a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D+_H_P" bidirectional
+			(at 88.9 148.59 180)
+			(uuid "f2372d60-9fb7-4482-893e-1f416bb2bb97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-_H_N" bidirectional
+			(at 88.9 146.05 180)
+			(uuid "c5f55f91-d366-4f8f-91cf-5ca6772efe1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-_Device" bidirectional
+			(at 120.65 156.21 270)
+			(uuid "07c217fa-0a07-409c-9a98-306ae048b927")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D+_Device" bidirectional
+			(at 123.19 156.21 270)
+			(uuid "4a04f11c-2d4a-466b-85a6-d3fbf646d2ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61"
@@ -166,8 +613,8 @@
 		)
 	)
 	(sheet
-		(at 23.876 48.26)
-		(size 43.434 42.545)
+		(at 22.606 32.131)
+		(size 43.434 65.024)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -182,7 +629,7 @@
 		)
 		(uuid "8c7aeb13-3d5f-43d1-8082-f681ba5c2cbd")
 		(property "Sheetname" "SALIDA J5 y J6"
-			(at 23.876 47.0658 0)
+			(at 22.606 30.9368 0)
 			(effects
 				(font
 					(face "Bookman Old Style")
@@ -194,7 +641,7 @@
 			)
 		)
 		(property "Sheetfile" "SALIDA 1.kicad_sch"
-			(at 23.876 91.3896 0)
+			(at 22.606 97.7396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,7 +650,7 @@
 			)
 		)
 		(pin "!CS_MCP23S7_SS_1_J5" input
-			(at 67.31 70.612 0)
+			(at 66.04 71.628 0)
 			(uuid "3178a5cf-aaa0-4659-8941-7f3bbb40bdb2")
 			(effects
 				(font
@@ -213,7 +660,7 @@
 			)
 		)
 		(pin "BIN:BIN-MONITOR_3V3_J7" input
-			(at 67.31 74.422 0)
+			(at 66.04 75.438 0)
 			(uuid "aeab3485-baf2-471a-82b9-b9a8dc7b36f1")
 			(effects
 				(font
@@ -223,7 +670,7 @@
 			)
 		)
 		(pin "DA0_Analog" input
-			(at 67.31 76.962 0)
+			(at 66.04 77.978 0)
 			(uuid "fb770e3b-3a2f-44a8-a8c1-c87bdef71372")
 			(effects
 				(font
@@ -233,7 +680,7 @@
 			)
 		)
 		(pin "DA1_Analog" input
-			(at 67.31 80.772 0)
+			(at 66.04 81.788 0)
 			(uuid "ef3c097d-b01b-4a4f-919a-5c961018439b")
 			(effects
 				(font
@@ -243,7 +690,7 @@
 			)
 		)
 		(pin "Error_LAMP_Fault_+24v" output
-			(at 67.31 83.312 0)
+			(at 66.04 84.328 0)
 			(uuid "ddb17da1-5bf6-4b66-a91c-d569bb6dd695")
 			(effects
 				(font
@@ -253,7 +700,7 @@
 			)
 		)
 		(pin "IN1_MO1" input
-			(at 67.31 85.852 0)
+			(at 66.04 86.868 0)
 			(uuid "35fbebe2-6087-41ae-bfa1-a1e53bfa10d7")
 			(effects
 				(font
@@ -263,7 +710,7 @@
 			)
 		)
 		(pin "IN2_MO2" input
-			(at 67.31 88.392 0)
+			(at 66.04 89.408 0)
 			(uuid "0a9fe941-f000-4f53-91be-c5993cfa62ec")
 			(effects
 				(font
@@ -273,7 +720,7 @@
 			)
 		)
 		(pin "IN3_MO3" input
-			(at 67.31 68.072 0)
+			(at 66.04 69.088 0)
 			(uuid "948fa110-2909-4b97-a4ec-f1c7ea1e98a9")
 			(effects
 				(font
@@ -283,7 +730,7 @@
 			)
 		)
 		(pin "IN4_MO4" input
-			(at 67.31 65.532 0)
+			(at 66.04 66.548 0)
 			(uuid "d0a5751e-bdd2-4044-88d5-9af371ee01ac")
 			(effects
 				(font
@@ -293,7 +740,7 @@
 			)
 		)
 		(pin "INTA_MCP23S17_SS" output
-			(at 67.31 62.992 0)
+			(at 66.04 64.008 0)
 			(uuid "f9b91dd4-539d-4f03-90c8-909620be4ec7")
 			(effects
 				(font
@@ -303,7 +750,7 @@
 			)
 		)
 		(pin "MISO_MCP23S7_SS_1_J5" output
-			(at 67.31 59.69 0)
+			(at 66.04 60.706 0)
 			(uuid "f8a9a606-14de-4d60-8fc2-25d291d0c9b3")
 			(effects
 				(font
@@ -313,7 +760,7 @@
 			)
 		)
 		(pin "MOSI_MCP23S7_SS_1_J5" input
-			(at 67.31 57.15 0)
+			(at 66.04 58.166 0)
 			(uuid "21be55bb-5aa2-42e3-b008-4dddb90342bf")
 			(effects
 				(font
@@ -323,7 +770,7 @@
 			)
 		)
 		(pin "SCK_MCP23S7-SS_1_J5" input
-			(at 67.31 54.61 0)
+			(at 66.04 55.626 0)
 			(uuid "5c458ffd-4bb7-49fb-9d58-fbe372cc191d")
 			(effects
 				(font
@@ -333,7 +780,7 @@
 			)
 		)
 		(pin "STO:Conveyor Stop 3v3 J8" input
-			(at 67.31 50.8 0)
+			(at 66.04 51.816 0)
 			(uuid "452ec9e3-4519-4fea-8a49-3ab3044c5b34")
 			(effects
 				(font
@@ -343,49 +790,151 @@
 			)
 		)
 		(pin "Error_ULN_Fault_+24v" output
-			(at 23.876 77.47 180)
+			(at 66.04 48.006 0)
 			(uuid "34b5701f-9c01-48f8-8684-caadb1cf84f1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "FAULT_RELE" input
-			(at 23.876 59.69 180)
+		(pin "FAULT_RELE" output
+			(at 66.04 34.29 0)
 			(uuid "2afda9ac-af38-478a-9327-01da531c8a6b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "METAL1_RELE" input
-			(at 23.876 66.04 180)
+		(pin "METAL1_RELE" output
+			(at 66.04 36.83 0)
 			(uuid "a6e9c8e1-182f-4a23-957e-f5969a6bed08")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "METAL2_RELE" input
-			(at 23.876 69.85 180)
+		(pin "METAL2_RELE" output
+			(at 66.04 39.37 0)
 			(uuid "60ff7693-5b5a-4f5e-b16d-871866dea804")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 163.83)
+		(size 34.29 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d296a6f-d65d-491e-bf56-0b9d64795b89")
+		(property "Sheetname" "USB"
+			(at 88.9 163.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 88.9 185.3696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_Power_Switcher" input
+			(at 88.9 171.45 180)
+			(uuid "9b966708-cce3-4072-aadc-ebb8ffb9e629")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_Current_Status" input
+			(at 88.9 173.99 180)
+			(uuid "b02ac7b5-4c1f-4fa0-af33-88ce3d725e58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D+_H_P" bidirectional
+			(at 88.9 176.53 180)
+			(uuid "bcf99ba2-9d4f-46db-b889-f2f9aa21019d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-_H_N" bidirectional
+			(at 88.9 179.07 180)
+			(uuid "4b1e561e-9b21-4e86-9f05-a2d46ea53449")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-_Device" bidirectional
+			(at 123.19 166.37 0)
+			(uuid "7df3294a-6190-492f-b10f-640ef18fe354")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+_Device" bidirectional
+			(at 123.19 168.91 0)
+			(uuid "afa242fe-1fd6-4f79-9524-183463934f2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "01_IO-ASD-PLUS"
+				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61"
+					(page "7")
 				)
 			)
 		)

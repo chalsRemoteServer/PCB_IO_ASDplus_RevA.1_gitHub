@@ -498,6 +498,12 @@
       ],
       "/Processador/D-_H_N": [
         "USB  data"
+      ],
+      "/Serial_Comm/Busy_Tx_Logic": [
+        "Señal de busy para uProc Board"
+      ],
+      "/Serial_Comm/Metal_INT_Logic": [
+        "Señal de interrupcion de Metal Detectado"
       ]
     },
     "netclass_patterns": []
@@ -845,6 +851,26 @@
     [
       "8d296a6f-d65d-491e-bf56-0b9d64795b89",
       "USB"
+    ],
+    [
+      "68fe7d63-f78e-4ff8-8f6d-806bea1d06f3",
+      "ENTRADAS1"
+    ],
+    [
+      "d6c06d3f-d872-4b72-9880-d057ef1188dd",
+      "ENTRADAS2"
+    ],
+    [
+      "19faad97-cb14-41b6-a038-81c575645464",
+      "Ent Especial"
+    ],
+    [
+      "92659552-e3e9-4659-b9ad-ce458c1d5072",
+      "Port Expansor"
+    ],
+    [
+      "b83e4991-9806-4c27-8269-31bebca0e905",
+      "Serial_Comm"
     ]
   ],
   "text_variables": {}
