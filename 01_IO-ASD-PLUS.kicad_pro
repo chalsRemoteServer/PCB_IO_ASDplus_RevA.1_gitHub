@@ -504,6 +504,12 @@
       ],
       "/Serial_Comm/Metal_INT_Logic": [
         "Señal de interrupcion de Metal Detectado"
+      ],
+      "/USB/D+_H_P": [
+        "USB  data"
+      ],
+      "/USB/D-_H_N": [
+        "USB  data"
       ]
     },
     "netclass_patterns": []
@@ -871,6 +877,10 @@
     [
       "b83e4991-9806-4c27-8269-31bebca0e905",
       "Serial_Comm"
+    ],
+    [
+      "3e235441-da5f-4b2f-962b-b7e4c230eeed",
+      "Led_ctrl"
     ]
   ],
   "text_variables": {}

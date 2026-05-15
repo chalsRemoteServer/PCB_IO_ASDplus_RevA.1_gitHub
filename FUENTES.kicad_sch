@@ -4023,6 +4023,19 @@
 		)
 		(uuid "4281347f-092d-41aa-bc69-9ff0d33c094d")
 	)
+	(text "GENERAR -12 ó -15 CON MINIMO 1AMP\n"
+		(exclude_from_sim no)
+		(at 229.87 105.156 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(italic yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "7d986711-d9ab-4434-8a33-8030fe644618")
+	)
 	(text "PIN 15 VA AL MICRO"
 		(exclude_from_sim no)
 		(at 59.69 135.382 0)
@@ -4062,6 +4075,19 @@
 			)
 		)
 		(uuid "c2887f0b-60bb-4392-ba8e-a92cfb8a94b8")
+	)
+	(text "CAMBIAR A 1 AMP\n"
+		(exclude_from_sim no)
+		(at 238.506 149.098 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(italic yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "d00356c0-192b-4b59-a01c-2aa2e8804faa")
 	)
 	(junction
 		(at 76.2 22.86)
@@ -15179,10 +15205,10 @@
 		(lib_id "Regulator_Linear:TLV70212_SOT23-5")
 		(at 256.54 34.29 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "afbaa378-9270-49eb-b1d1-2e2adb605c78")
 		(property "Reference" "U7"

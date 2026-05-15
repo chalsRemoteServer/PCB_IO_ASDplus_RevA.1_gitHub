@@ -2345,8 +2345,8 @@
 		)
 	)
 	(sheet
-		(at 257.8354 41.91)
-		(size 15.621 19.685)
+		(at 257.8354 41.275)
+		(size 15.621 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2360,7 +2360,7 @@
 		)
 		(uuid "68fe7d63-f78e-4ff8-8f6d-806bea1d06f3")
 		(property "Sheetname" "ENTRADAS1"
-			(at 257.3274 40.894 0)
+			(at 257.3274 40.259 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2369,7 +2369,7 @@
 			)
 		)
 		(property "Sheetfile" "ENTRADAS.kicad_sch"
-			(at 258.0894 62.484 0)
+			(at 258.0894 61.849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,6 +2435,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Error_Conn_Entrada_+24v" output
+			(at 273.4564 43.18 0)
+			(uuid "57b7d9db-4624-41c4-bb0c-6c4b48b19021")
+			(effects
+				(font
+					(size 0.6858 0.6858)
+					(color 255 0 0 1)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2518,6 +2529,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 0 0 1)
 				)
 				(justify right)
 			)
@@ -2608,6 +2620,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 0 0 1)
 				)
 				(justify right)
 			)
@@ -2865,6 +2878,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Error_Conn_Entrada_+24v" output
+			(at 273.4564 68.58 0)
+			(uuid "6492e8f4-d5b0-4028-87de-2bc033fcc2a6")
+			(effects
+				(font
+					(size 0.6858 0.6858)
+					(color 255 0 0 1)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -3397,7 +3421,7 @@
 			(uuid "2c434ca3-f49d-428a-8785-148bd6359e70")
 			(effects
 				(font
-					(size 0.635 0.635)
+					(size 0.6858 0.6858)
 					(color 255 0 0 1)
 				)
 				(justify right)

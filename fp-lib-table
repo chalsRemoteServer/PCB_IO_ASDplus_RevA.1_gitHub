@@ -3,4 +3,5 @@
   (lib (name "Dropbox")(type "KiCad")(uri "C:/Users/desarrollo_1/Dropbox.pretty")(options "")(descr ""))
   (lib (name "CONECTORES GRACIDA")(type "KiCad")(uri "C:/Users/desarrollo_1/Dropbox/librerias_kicad/FOOTPRINT_KICAD/CONECTORES GRACIDA.pretty")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "C:/Users/desarrollo_1/Dropbox/librerias_kicad/ul_FT900L-C-T/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Inductores_GSI")(type "KiCad")(uri "C:/Users/desarrollo_1/Dropbox/librerias_kicad/FOOTPRINT_KICAD/Inductores_GSI.pretty")(options "")(descr ""))
 )
