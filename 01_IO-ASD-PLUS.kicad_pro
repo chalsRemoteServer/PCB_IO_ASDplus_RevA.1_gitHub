@@ -493,11 +493,17 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Processador/BUSY_DISPLAY": [
+        "Señal de busy para uProc Board"
+      ],
       "/Processador/D+_H_P": [
         "USB  data"
       ],
       "/Processador/D-_H_N": [
         "USB  data"
+      ],
+      "/Processador/METAL_INTERRUPCION": [
+        "Señal de interrupcion de Metal Detectado"
       ],
       "/Serial_Comm/Busy_Tx_Logic": [
         "Señal de busy para uProc Board"
