@@ -9,27 +9,29 @@
 		(company "GRACIDA SISTEMAS INDUSTRIALES")
 	)
 	(lib_symbols
-		(symbol "1147330000_1"
+		(symbol "CONECTORES GRACIDA:1147330000"
 			(pin_names
 				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J2"
-				(at 10.16 -12.7 0)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "1147330000"
-				(at 10.16 -10.16 0)
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "CONECTORES GRACIDA:3POS-5.08PITCH"
@@ -101,8 +103,18 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "470-1147330000"
+			(property "Mouser Part Number" "470-1147330000"
 				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Weidmuller/1147330000?qs=WJDKaGZ8K%252B4exlyHM6mvUQ%3D%3D"
+				(at 16.51 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -121,7 +133,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "2.41"
+			(property "Arrow Price/Stock" ""
 				(at 16.51 -20.32 0)
 				(effects
 					(font
@@ -131,7 +143,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1147330000_1_0_0"
+			(symbol "1147330000_0_0"
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
@@ -187,7 +199,7 @@
 					)
 				)
 			)
-			(symbol "1147330000_1_0_1"
+			(symbol "1147330000_1_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
@@ -197,100 +209,8 @@
 						(type solid)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 9.398 0)
-					(radius 0.9158)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 9.398 -2.54)
-					(radius 0.9158)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 9.398 -5.08)
-					(radius 0.9158)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 11.43 1.27)
-					(mid 11.9561 0)
-					(end 11.43 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 11.43 -1.27)
-					(mid 11.9561 -2.54)
-					(end 11.43 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 11.43 -3.81)
-					(mid 11.9561 -5.08)
-					(end 11.43 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.176 2.032) (xy 5.842 2.032) (xy 5.842 -6.858) (xy 5.842 -7.112) (xy 11.176 -7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.43 1.27) (xy 11.43 2.032) (xy 14.732 2.032) (xy 14.732 -7.112) (xy 11.43 -7.112) (xy 11.43 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 			)
@@ -2513,7 +2433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b3410c9-fd65-40c6-843c-a49bc719a631")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 133.604 96.52 90)
 			(effects
 				(font
@@ -2548,7 +2468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.2k 5% 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 137.16 97.79 0)
 			(effects
 				(font
@@ -2584,7 +2504,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/2e698a92-0ed9-457a-8ea3-5be56f6a1bd4"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2634,7 +2554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED AMBAR"
+		(property "Description" "Light emitting diode"
 			(at 126.238 101.6 0)
 			(effects
 				(font
@@ -2686,7 +2606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e5950cd-0145-4e67-91c5-2afae50db9f9")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 99.06 64.77 0)
 			(effects
 				(font
@@ -2739,7 +2659,7 @@
 		(instances
 			(project ""
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/2e698a92-0ed9-457a-8ea3-5be56f6a1bd4"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2754,7 +2674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f2d8951-ef50-46e3-a1ef-3aca95d8372c")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 87.884 60.96 90)
 			(effects
 				(font
@@ -2789,7 +2709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors D11/CRCW0603 100 23R7 1% ET6 E3"
+		(property "Description" "Resistor, small US symbol"
 			(at 91.44 62.23 0)
 			(effects
 				(font
@@ -2825,7 +2745,7 @@
 		(instances
 			(project ""
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/2e698a92-0ed9-457a-8ea3-5be56f6a1bd4"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2875,7 +2795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED AMBAR"
+		(property "Description" "Light emitting diode"
 			(at 126.238 121.92 0)
 			(effects
 				(font
@@ -2928,7 +2848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4dd30342-8291-4714-9ebf-8806e4e3c83b")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 133.604 116.84 90)
 			(effects
 				(font
@@ -2963,7 +2883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.2k 5% 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 137.16 118.11 0)
 			(effects
 				(font
@@ -2999,14 +2919,13 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/2e698a92-0ed9-457a-8ea3-5be56f6a1bd4"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "1147330000_1")
 		(lib_id "CONECTORES GRACIDA:1147330000")
 		(at 49.53 139.7 180)
 		(unit 1)
@@ -3121,6 +3040,36 @@
 			)
 		)
 		(property "Price" "2.41"
+			(at 33.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "470-1147330000"
+			(at 33.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Weidmuller/1147330000?qs=WJDKaGZ8K%252B4exlyHM6mvUQ%3D%3D"
+			(at 33.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 33.02 119.38 0)
 			(effects
 				(font
@@ -3352,7 +3301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8baeed81-b6d3-4321-ac35-a7076184790a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 134.62 93.98 0)
 			(effects
 				(font
@@ -3402,7 +3351,7 @@
 		(instances
 			(project ""
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/2e698a92-0ed9-457a-8ea3-5be56f6a1bd4"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3452,7 +3401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED AMBAR"
+		(property "Description" "Light emitting diode"
 			(at 126.238 111.76 0)
 			(effects
 				(font
@@ -3497,7 +3446,6 @@
 		)
 	)
 	(symbol
-		(lib_name "1147330000_1")
 		(lib_id "CONECTORES GRACIDA:1147330000")
 		(at 49.53 91.44 180)
 		(unit 1)
@@ -3612,6 +3560,36 @@
 			)
 		)
 		(property "Price" "2.41"
+			(at 33.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "470-1147330000"
+			(at 33.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Weidmuller/1147330000?qs=WJDKaGZ8K%252B4exlyHM6mvUQ%3D%3D"
+			(at 33.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 33.02 71.12 0)
 			(effects
 				(font
@@ -3782,7 +3760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P275L20 = Varistor (resistencia variable dependiente del voltaje)  Su función: proteger circuitos contra sobretensiones (rayos, picos de voltaje)Voltaje AC máx: 275V (ideal para 220V)  Corriente pico: ~4.5-6.5kA  Diámetro: 14-20mm, Varistores 275V 450pF  , Parámetro Valor Diámetro del disco (cuerpo) 14 mm (0.55 in)  Ancho (con las patillas) 5.6 mm (0.22 in)  Altura total 20 mm (0.79 in)  Longitud de la patilla (terminal) 25.4 mm (1.0 in)  Paso de las patillas (distancia entre ellas) 8.5 mm (0.33 in) (según algunas fuentes, 7.5 mm)"
+		(property "Description" "Voltage dependent resistor"
 			(at 83.82 77.47 0)
 			(effects
 				(font
@@ -3895,7 +3873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfcdadd3-a22e-42a5-9b87-18bfd930e6f0")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 133.604 106.68 90)
 			(effects
 				(font
@@ -3930,7 +3908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.2k 5% 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 137.16 107.95 0)
 			(effects
 				(font
@@ -3966,7 +3944,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/2e698a92-0ed9-457a-8ea3-5be56f6a1bd4"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4017,7 +3995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P275L20 = Varistor (resistencia variable dependiente del voltaje)  Su función: proteger circuitos contra sobretensiones (rayos, picos de voltaje)Voltaje AC máx: 275V (ideal para 220V)  Corriente pico: ~4.5-6.5kA  Diámetro: 14-20mm, Varistores 275V 450pF  , Parámetro Valor Diámetro del disco (cuerpo) 14 mm (0.55 in)  Ancho (con las patillas) 5.6 mm (0.22 in)  Altura total 20 mm (0.79 in)  Longitud de la patilla (terminal) 25.4 mm (1.0 in)  Paso de las patillas (distancia entre ellas) 8.5 mm (0.33 in) (según algunas fuentes, 7.5 mm)"
+		(property "Description" "Voltage dependent resistor"
 			(at 83.82 27.94 0)
 			(effects
 				(font
@@ -4166,7 +4144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P275L20 = Varistor (resistencia variable dependiente del voltaje)  Su función: proteger circuitos contra sobretensiones (rayos, picos de voltaje)Voltaje AC máx: 275V (ideal para 220V)  Corriente pico: ~4.5-6.5kA  Diámetro: 14-20mm, Varistores 275V 450pF  , Parámetro Valor Diámetro del disco (cuerpo) 14 mm (0.55 in)  Ancho (con las patillas) 5.6 mm (0.22 in)  Altura total 20 mm (0.79 in)  Longitud de la patilla (terminal) 25.4 mm (1.0 in)  Paso de las patillas (distancia entre ellas) 8.5 mm (0.33 in) (según algunas fuentes, 7.5 mm)"
+		(property "Description" "Voltage dependent resistor"
 			(at 83.82 33.02 0)
 			(effects
 				(font
@@ -4315,7 +4293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P275L20 = Varistor (resistencia variable dependiente del voltaje)  Su función: proteger circuitos contra sobretensiones (rayos, picos de voltaje)Voltaje AC máx: 275V (ideal para 220V)  Corriente pico: ~4.5-6.5kA  Diámetro: 14-20mm, Varistores 275V 450pF  , Parámetro Valor Diámetro del disco (cuerpo) 14 mm (0.55 in)  Ancho (con las patillas) 5.6 mm (0.22 in)  Altura total 20 mm (0.79 in)  Longitud de la patilla (terminal) 25.4 mm (1.0 in)  Paso de las patillas (distancia entre ellas) 8.5 mm (0.33 in) (según algunas fuentes, 7.5 mm)"
+		(property "Description" "Voltage dependent resistor"
 			(at 83.82 82.55 0)
 			(effects
 				(font
@@ -4420,7 +4398,6 @@
 		)
 	)
 	(symbol
-		(lib_name "1147330000_1")
 		(lib_id "CONECTORES GRACIDA:1147330000")
 		(at 49.53 52.07 180)
 		(unit 1)
@@ -4535,6 +4512,36 @@
 			)
 		)
 		(property "Price" "2.41"
+			(at 33.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "470-1147330000"
+			(at 33.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Weidmuller/1147330000?qs=WJDKaGZ8K%252B4exlyHM6mvUQ%3D%3D"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 33.02 31.75 0)
 			(effects
 				(font

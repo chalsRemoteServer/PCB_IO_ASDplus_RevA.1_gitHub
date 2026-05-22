@@ -5,7 +5,7 @@
 	(uuid "94a65f46-1590-4cf6-96fc-7dd060227c52")
 	(paper "A4")
 	(lib_symbols
-		(symbol "1-215079-0_microMatch10P_1.27mm_1"
+		(symbol "CONECTORES GRACIDA:1-215079-0_microMatch10P_1.27mm"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -79,7 +79,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1-215079-0_microMatch10P_1.27mm_1_0_1"
+			(symbol "1-215079-0_microMatch10P_1.27mm_0_1"
 				(circle
 					(center -2.032 -2.032)
 					(radius 1.2952)
@@ -195,7 +195,7 @@
 					)
 				)
 			)
-			(symbol "1-215079-0_microMatch10P_1.27mm_1_1_1"
+			(symbol "1-215079-0_microMatch10P_1.27mm_1_1"
 				(polyline
 					(pts
 						(xy 2.032 -8.128) (xy 0.762 -10.668) (xy 3.302 -10.668) (xy 2.032 -8.128)
@@ -2308,33 +2308,6 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "DC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "battery cell"
 				(at 0 0 0)
 				(effects
@@ -3279,7 +3252,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FT900L-C-T_1"
+		(symbol "MICROS_DIGITAL_GSI_v2:FT900Q"
 			(pin_names
 				(offset 0.254)
 			)
@@ -3294,7 +3267,7 @@
 					)
 				)
 			)
-			(property "Value" "FT900L-C-T"
+			(property "Value" "FT900Q"
 				(at 46.482 7.62 0)
 				(effects
 					(font
@@ -3322,7 +3295,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Microcontroladores de 32 bits - MCU 32 Bit MCU Rev C ETH,CAN,Camera,SD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "895-FT900Q-C-T "
 				(at 0 0 0)
 				(effects
 					(font
@@ -3349,7 +3331,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "FT900L-C-T_1_0_1"
+			(symbol "FT900Q_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -129.54)
@@ -5181,7 +5163,7 @@
 					)
 				)
 			)
-			(symbol "FT900L-C-T_1_1_1"
+			(symbol "FT900Q_1_1"
 				(pin input line
 					(at 87.63 -35.56 180)
 					(length 7.62)
@@ -6419,12 +6401,6 @@
 		(uuid "26b3c66a-c93e-4bb0-8df4-82db6a248848")
 	)
 	(junction
-		(at 256.54 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a8b1cec-0a95-49f9-882a-fe9718502e7b")
-	)
-	(junction
 		(at 68.58 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6635,6 +6611,12 @@
 		(uuid "bae793a7-82ae-4223-a376-4c561b767d1a")
 	)
 	(junction
+		(at 256.54 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfadc3e1-8ff6-4e55-be13-ae4ae737d137")
+	)
+	(junction
 		(at 62.23 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6800,17 +6782,6 @@
 			(type default)
 		)
 		(uuid "07b66d26-109a-4d22-aa5e-3e91162b7dd4")
-	)
-	(wire
-		(pts
-			(xy 256.54 81.28) (xy 256.54 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 204 102 0 1)
-		)
-		(uuid "07bb978e-5522-4ccd-ab25-4fb76089d3b5")
 	)
 	(wire
 		(pts
@@ -7001,16 +6972,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 58.42) (xy 274.32 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14032bea-2bd7-49be-b2d0-ae23bbaf2727")
-	)
-	(wire
-		(pts
 			(xy 43.18 101.6) (xy 43.18 110.49)
 		)
 		(stroke
@@ -7124,6 +7085,17 @@
 			(type default)
 		)
 		(uuid "1a4022a3-60e0-417d-8136-2c11dc66df13")
+	)
+	(wire
+		(pts
+			(xy 256.54 83.82) (xy 267.97 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1a72a349-2792-43ea-bf2a-2acd62ea0148")
 	)
 	(wire
 		(pts
@@ -7275,6 +7247,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 58.42) (xy 274.32 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a2ef98f-a55f-49c9-b00f-8e08c9cf3860")
+	)
+	(wire
+		(pts
 			(xy 273.05 46.99) (xy 274.32 46.99)
 		)
 		(stroke
@@ -7325,6 +7307,17 @@
 			(color 93 135 255 1)
 		)
 		(uuid "2d3a89cd-9c4f-4941-8b1b-b837bd75e7ad")
+	)
+	(wire
+		(pts
+			(xy 194.31 104.14) (xy 273.05 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2d5e785e-2f39-496f-9690-a61e2571516a")
 	)
 	(wire
 		(pts
@@ -7408,17 +7401,6 @@
 			(type default)
 		)
 		(uuid "337203cb-a7b5-419b-88ab-e13f5e5e3009")
-	)
-	(wire
-		(pts
-			(xy 194.31 109.22) (xy 275.59 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 132 132 0 1)
-		)
-		(uuid "34ccdfc8-36f1-47b7-baf6-a3494104a9f0")
 	)
 	(wire
 		(pts
@@ -7863,6 +7845,17 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 111.76) (xy 275.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "54f9285a-dff7-4333-979d-488a655e1d2d")
+	)
+	(wire
+		(pts
 			(xy 49.53 120.65) (xy 13.97 120.65)
 		)
 		(stroke
@@ -7948,6 +7941,17 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 83.82) (xy 256.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 204 102 0 1)
+		)
+		(uuid "5bb3d010-df67-4316-b3c4-a79c305c3a90")
+	)
+	(wire
+		(pts
 			(xy 106.68 99.06) (xy 71.12 99.06)
 		)
 		(stroke
@@ -8000,7 +8004,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 83.82) (xy 267.97 83.82)
+			(xy 194.31 83.82) (xy 256.54 83.82)
 		)
 		(stroke
 			(width 0)
@@ -8169,7 +8173,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 60.96) (xy 255.27 60.96)
+			(xy 255.27 60.96) (xy 276.86 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8233,17 +8237,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 104.14) (xy 273.05 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "6c07a5e3-85c1-49a5-9049-9c5879bf424d")
-	)
-	(wire
-		(pts
 			(xy 58.42 115.57) (xy 58.42 116.84)
 		)
 		(stroke
@@ -8251,17 +8244,6 @@
 			(type default)
 		)
 		(uuid "6c2cb2d3-2084-433b-99f6-56801956fc30")
-	)
-	(wire
-		(pts
-			(xy 194.31 76.2) (xy 273.05 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "6c54c53a-e6fa-4980-873d-ab9344507540")
 	)
 	(wire
 		(pts
@@ -8826,6 +8808,17 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 76.2) (xy 273.05 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "8dcf1133-ba24-4934-83ce-daf3fb8b389b")
+	)
+	(wire
+		(pts
 			(xy 58.42 104.14) (xy 54.61 104.14)
 		)
 		(stroke
@@ -9139,17 +9132,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "aa90bb20-34f3-4466-8401-1699665e83a9")
-	)
-	(wire
-		(pts
-			(xy 194.31 81.28) (xy 256.54 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 204 102 0 1)
-		)
-		(uuid "ac19c962-1d1f-43f0-9b06-4cfedac70dbb")
 	)
 	(wire
 		(pts
@@ -9880,7 +9862,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 81.28) (xy 261.62 81.28)
+			(xy 194.31 81.28) (xy 261.62 81.28)
 		)
 		(stroke
 			(width 0)
@@ -10199,6 +10181,17 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 109.22) (xy 275.59 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 132 0 1)
+		)
+		(uuid "ecfc0bea-6db0-4a24-b8ac-927ce50da18a")
+	)
+	(wire
+		(pts
 			(xy 12.7 66.04) (xy 12.7 121.92)
 		)
 		(stroke
@@ -10237,17 +10230,6 @@
 			(type default)
 		)
 		(uuid "ee1634d7-a5fe-4c84-a286-0c1065f0e114")
-	)
-	(wire
-		(pts
-			(xy 194.31 111.76) (xy 275.59 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 194 1)
-		)
-		(uuid "ef832ff8-c349-4f6b-9a0f-fd1f4140c707")
 	)
 	(wire
 		(pts
@@ -10916,7 +10898,6 @@
 		)
 	)
 	(symbol
-		(lib_name "1-215079-0_microMatch10P_1.27mm_1")
 		(lib_id "CONECTORES GRACIDA:1-215079-0_microMatch10P_1.27mm")
 		(at 19.05 71.12 0)
 		(unit 1)
@@ -10925,7 +10906,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "000e6fcb-e0fe-4643-9358-7207e3d920b5")
-		(property "Reference" "CN7"
+		(property "Reference" "CN1"
 			(at 28.194 84.582 0)
 			(effects
 				(font
@@ -11051,7 +11032,7 @@
 		(instances
 			(project ""
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "CN7")
+					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -11066,7 +11047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "021e624d-93e9-402f-865c-c7df80e7e965")
-		(property "Reference" "#PWR0242"
+		(property "Reference" "#PWR0268"
 			(at 267.97 96.52 0)
 			(effects
 				(font
@@ -11116,7 +11097,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0242")
+					(reference "#PWR0268")
 					(unit 1)
 				)
 			)
@@ -11131,7 +11112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04331145-f680-4a64-af6a-2d63defb18c7")
-		(property "Reference" "C117"
+		(property "Reference" "C114"
 			(at 266.192 38.1 0)
 			(effects
 				(font
@@ -11165,7 +11146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 273.05 38.862 90)
 			(effects
 				(font
@@ -11182,7 +11163,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C117")
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -11197,7 +11178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06109ac5-b9f1-4c9d-bd66-fecc5345388d")
-		(property "Reference" "R167"
+		(property "Reference" "R174"
 			(at 271.018 53.848 90)
 			(effects
 				(font
@@ -11252,7 +11233,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R167")
+					(reference "R174")
 					(unit 1)
 				)
 			)
@@ -11267,7 +11248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08e20bae-5e42-422b-9159-ca15edb837f4")
-		(property "Reference" "C108"
+		(property "Reference" "C118"
 			(at 282.956 119.634 0)
 			(effects
 				(font
@@ -11301,7 +11282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 284.226 113.284 90)
 			(effects
 				(font
@@ -11318,7 +11299,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C108")
+					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -11402,7 +11383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1133471b-5f24-484d-9237-569c276bc357")
-		(property "Reference" "C116"
+		(property "Reference" "C97"
 			(at 58.42 80.518 90)
 			(effects
 				(font
@@ -11436,7 +11417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 55.626 83.312 90)
 			(effects
 				(font
@@ -11455,7 +11436,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C116")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -11470,7 +11451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "127090e2-c10a-4817-b769-4cd82dc0f8db")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0234"
 			(at 13.97 60.96 0)
 			(effects
 				(font
@@ -11520,7 +11501,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0219")
+					(reference "#PWR0234")
 					(unit 1)
 				)
 			)
@@ -11535,7 +11516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13128c8a-73b0-4731-8d5f-c4ff41898d23")
-		(property "Reference" "#PWR0243"
+		(property "Reference" "#PWR0269"
 			(at 267.97 129.54 0)
 			(effects
 				(font
@@ -11585,7 +11566,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0243")
+					(reference "#PWR0269")
 					(unit 1)
 				)
 			)
@@ -11600,7 +11581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15459533-9578-4d77-afcf-1995486b73b4")
-		(property "Reference" "C94"
+		(property "Reference" "C103"
 			(at 231.14 55.88 90)
 			(effects
 				(font
@@ -11634,7 +11615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 229.108 54.61 90)
 			(effects
 				(font
@@ -11651,7 +11632,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C94")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -11666,7 +11647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1721fbe4-dafb-4fb2-8e65-f858769b516a")
-		(property "Reference" "R163"
+		(property "Reference" "R166"
 			(at 234.188 15.24 90)
 			(effects
 				(font
@@ -11720,7 +11701,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R163")
+					(reference "R166")
 					(unit 1)
 				)
 			)
@@ -11735,7 +11716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1793e675-1d98-41a8-9c9d-43debc5a63e7")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR0238"
 			(at 36.83 102.87 0)
 			(effects
 				(font
@@ -11788,7 +11769,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0225")
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -11803,7 +11784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e6cbe73-528f-47f3-8a4b-fe19b72b31df")
-		(property "Reference" "#PWR0249"
+		(property "Reference" "#PWR0276"
 			(at 273.05 129.54 0)
 			(effects
 				(font
@@ -11853,7 +11834,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0249")
+					(reference "#PWR0276")
 					(unit 1)
 				)
 			)
@@ -11904,7 +11885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "32.768khz"
+		(property "Description" "Two pin crystal"
 			(at 218.694 55.88 90)
 			(effects
 				(font
@@ -11936,7 +11917,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f1aa2f2-b648-45b9-9545-fb7f0cd22f4e")
-		(property "Reference" "C102"
+		(property "Reference" "C105"
 			(at 245.11 54.61 90)
 			(effects
 				(font
@@ -11970,7 +11951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 244.602 59.944 90)
 			(effects
 				(font
@@ -11989,7 +11970,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C102")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -12040,7 +12021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "12MHz"
+		(property "Description" "Two pin crystal"
 			(at 274.32 110.236 90)
 			(effects
 				(font
@@ -12072,7 +12053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2258b27b-3420-4eae-b92e-a2e07edf9d25")
-		(property "Reference" "#PWR0233"
+		(property "Reference" "#PWR0248"
 			(at 59.69 60.96 0)
 			(effects
 				(font
@@ -12122,7 +12103,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0233")
+					(reference "#PWR0248")
 					(unit 1)
 				)
 			)
@@ -12222,7 +12203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25138403-9d30-4945-9818-d3f09cb7e400")
-		(property "Reference" "#PWR0247"
+		(property "Reference" "#PWR0274"
 			(at 273.05 97.79 0)
 			(effects
 				(font
@@ -12272,7 +12253,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0247")
+					(reference "#PWR0274")
 					(unit 1)
 				)
 			)
@@ -12287,7 +12268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "274e9838-3b82-44fa-acc3-5fb54c6b864c")
-		(property "Reference" "C96"
+		(property "Reference" "C106"
 			(at 258.572 85.09 0)
 			(effects
 				(font
@@ -12321,7 +12302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 256.032 86.106 90)
 			(effects
 				(font
@@ -12340,7 +12321,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C96")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -12355,7 +12336,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28b8df02-7687-49d6-aeb6-01bdc81a358c")
-		(property "Reference" "R150"
+		(property "Reference" "R170"
 			(at 268.478 77.978 90)
 			(effects
 				(font
@@ -12410,7 +12391,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R150")
+					(reference "R170")
 					(unit 1)
 				)
 			)
@@ -12425,7 +12406,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35122ec4-8fcf-419a-9249-7fb45efc9898")
-		(property "Reference" "C86"
+		(property "Reference" "C100"
 			(at 86.614 139.7 0)
 			(effects
 				(font
@@ -12459,7 +12440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 89.154 140.716 90)
 			(effects
 				(font
@@ -12476,7 +12457,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C86")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -12491,7 +12472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37f3cec4-4d4b-4ceb-ba6f-b965dac7bcac")
-		(property "Reference" "C90"
+		(property "Reference" "C95"
 			(at 49.53 18.288 0)
 			(effects
 				(font
@@ -12525,7 +12506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 54.356 17.018 90)
 			(effects
 				(font
@@ -12543,7 +12524,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C90")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -12558,7 +12539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3856d93a-73bf-48c5-8946-9cde3cf0ecda")
-		(property "Reference" "C119"
+		(property "Reference" "C108"
 			(at 259.08 53.848 90)
 			(effects
 				(font
@@ -12592,7 +12573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 262.636 56.896 90)
 			(effects
 				(font
@@ -12609,7 +12590,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C119")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -12624,7 +12605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3869e23a-2c1a-4acf-961e-a98c5cad2247")
-		(property "Reference" "R160"
+		(property "Reference" "R159"
 			(at 67.564 96.266 90)
 			(effects
 				(font
@@ -12678,7 +12659,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R160")
+					(reference "R159")
 					(unit 1)
 				)
 			)
@@ -12693,7 +12674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38e3dd2a-bedd-42e9-b2cd-358ce424bd49")
-		(property "Reference" "#PWR0232"
+		(property "Reference" "#PWR0247"
 			(at 57.15 27.94 0)
 			(effects
 				(font
@@ -12743,7 +12724,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0232")
+					(reference "#PWR0247")
 					(unit 1)
 				)
 			)
@@ -12758,7 +12739,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a090dca-81db-4758-9130-eba93b7d1784")
-		(property "Reference" "#PWR0278"
+		(property "Reference" "#PWR0260"
 			(at 233.68 46.99 0)
 			(effects
 				(font
@@ -12808,7 +12789,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0278")
+					(reference "#PWR0260")
 					(unit 1)
 				)
 			)
@@ -12823,7 +12804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d8f818e-c5c9-48c8-bf12-b4e973c0fd87")
-		(property "Reference" "#PWR0229"
+		(property "Reference" "#PWR0242"
 			(at 45.72 83.82 0)
 			(effects
 				(font
@@ -12876,7 +12857,7 @@
 		(instances
 			(project ""
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0229")
+					(reference "#PWR0242")
 					(unit 1)
 				)
 			)
@@ -12891,7 +12872,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3dfd1b33-9413-4f83-900e-8b32203a1198")
-		(property "Reference" "#PWR0236"
+		(property "Reference" "#PWR0264"
 			(at 256.54 97.79 0)
 			(effects
 				(font
@@ -12941,7 +12922,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0236")
+					(reference "#PWR0264")
 					(unit 1)
 				)
 			)
@@ -12956,7 +12937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fb58de5-fa9d-4108-8614-62b46311bc83")
-		(property "Reference" "#PWR0274"
+		(property "Reference" "#PWR0246"
 			(at 53.34 104.14 0)
 			(effects
 				(font
@@ -13006,7 +12987,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0274")
+					(reference "#PWR0246")
 					(unit 1)
 				)
 			)
@@ -13021,7 +13002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "429bba25-cbb8-457e-82f0-e5b287ef1095")
-		(property "Reference" "R142"
+		(property "Reference" "R157"
 			(at 63.5 20.828 90)
 			(effects
 				(font
@@ -13075,7 +13056,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R142")
+					(reference "R157")
 					(unit 1)
 				)
 			)
@@ -13090,7 +13071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4366c9c2-8aa5-4fa0-9f58-6420a97f0a95")
-		(property "Reference" "#PWR0251"
+		(property "Reference" "#PWR0257"
 			(at 218.44 48.26 0)
 			(effects
 				(font
@@ -13140,7 +13121,385 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0251")
+					(reference "#PWR0257")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MICROS_DIGITAL_GSI_v2:FT900Q")
+		(at 106.68 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48faaff4-27ab-4bc3-834d-ebbda71b14a4")
+		(property "Reference" "U1"
+			(at 148.59 37.846 0)
+			(effects
+				(font
+					(size 5.6388 5.6388)
+					(thickness 1.1278)
+					(bold yes)
+					(color 0 0 255 1)
+				)
+			)
+		)
+		(property "Value" "FT900Q"
+			(at 147.574 48.26 0)
+			(effects
+				(font
+					(size 5.6388 5.6388)
+					(thickness 0.5639)
+					(bold yes)
+					(color 0 0 255 1)
+				)
+			)
+		)
+		(property "Footprint" "footprints:LQFP_100_14X14X1P4_BRI"
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "FT900L-C-T"
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Microcontroladores de 32 bits - MCU 32 Bit MCU Rev C ETH,CAN,Camera,SD"
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "895-FT900Q-C-T "
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "58"
+			(uuid "664ccd35-d005-4e1a-8d29-ae15fe3002a9")
+		)
+		(pin "54"
+			(uuid "dfe749d0-1d46-4df6-a195-d17c4a2601ce")
+		)
+		(pin "64"
+			(uuid "1aabe64a-7d8a-4138-834f-10a1bdf1731b")
+		)
+		(pin "62"
+			(uuid "5d2ae530-fe29-4af5-ab0c-3a9a71868773")
+		)
+		(pin "86"
+			(uuid "f3a69aac-d5a3-43d4-831b-d58ddec4145e")
+		)
+		(pin "60"
+			(uuid "f5b2bdb7-a62b-48f0-8605-d144b0435b93")
+		)
+		(pin "51"
+			(uuid "ca2f373a-baaf-4f9f-aa43-0d26bb117f90")
+		)
+		(pin "57"
+			(uuid "5294cc7f-e164-4641-b3e3-6bdb5e7c4610")
+		)
+		(pin "55"
+			(uuid "43b7e12d-7e76-422a-ae03-7ae275e3cdee")
+		)
+		(pin "61"
+			(uuid "a2266b0b-8fc6-4c05-a927-aeb239495b05")
+		)
+		(pin "52"
+			(uuid "96a7c795-a797-48e8-9e47-b126620a246b")
+		)
+		(pin "59"
+			(uuid "f13f3daf-0634-4a1b-9542-2041a57abcb7")
+		)
+		(pin "53"
+			(uuid "06c68b6d-8c89-46da-b131-23bda05afce3")
+		)
+		(pin "63"
+			(uuid "838c2a7b-23d0-4b99-be46-6bb0c7f0e8eb")
+		)
+		(pin "56"
+			(uuid "d0b13622-dfbd-4fed-b897-c7d93f5bb068")
+		)
+		(pin "7"
+			(uuid "b3907b1e-71db-4626-b8e6-e70df61391fc")
+		)
+		(pin "35"
+			(uuid "d7f540ba-d96c-4698-824b-072b74fb66e4")
+		)
+		(pin "17"
+			(uuid "a8df57b4-272b-4d6b-8957-c37f7f718053")
+		)
+		(pin "100"
+			(uuid "621eeecb-e72e-44f5-a5a6-7ed8816a7a84")
+		)
+		(pin "3"
+			(uuid "f9418598-65c7-4ff4-b470-e274d5cfe8cd")
+		)
+		(pin "1"
+			(uuid "450124a3-c1a2-4e15-8aa9-25e3ca5a09e0")
+		)
+		(pin "11"
+			(uuid "73788ab8-2118-4426-9a64-359765e0b498")
+		)
+		(pin "14"
+			(uuid "fe5eeccf-47a5-4408-88c0-1cec0d799815")
+		)
+		(pin "31"
+			(uuid "3c695469-eeaf-41d2-a6ac-dc7bf0f3483d")
+		)
+		(pin "93"
+			(uuid "f6926e43-f6c6-44d3-ac1b-1e0f0fcaeff9")
+		)
+		(pin "91"
+			(uuid "c272a2de-9cbd-4593-8fdd-7f668e0fdaab")
+		)
+		(pin "13"
+			(uuid "c3cfae82-590e-4a3a-bdbc-ca959504d8eb")
+		)
+		(pin "21"
+			(uuid "b8f2d966-8d3f-4026-96e1-658420ede563")
+		)
+		(pin "2"
+			(uuid "c8c92ba2-1492-4d4e-924a-73c7f478c555")
+		)
+		(pin "15"
+			(uuid "fd44816c-8849-446e-8080-20e1619ae9e5")
+		)
+		(pin "32"
+			(uuid "28beab24-ba68-4ac6-aed6-b5143e9c3cac")
+		)
+		(pin "33"
+			(uuid "ce00716d-a49d-42ff-9f99-270c7d61e9c1")
+		)
+		(pin "37"
+			(uuid "c0bdce7a-6ec0-4223-a874-a14dba3888dd")
+		)
+		(pin "48"
+			(uuid "75003165-5d7d-451f-bc4a-15ad32a62805")
+		)
+		(pin "8"
+			(uuid "309ccfae-4c31-4b88-a464-868bfdbd187f")
+		)
+		(pin "10"
+			(uuid "5c3578d3-7708-406d-af58-36c080ba4910")
+		)
+		(pin "4"
+			(uuid "53466f71-2b1c-42e8-9e62-52d7203eef69")
+		)
+		(pin "6"
+			(uuid "8518fbb8-4d5b-49fb-a886-dc7a0ab7c4e8")
+		)
+		(pin "23"
+			(uuid "627f16cb-0baa-471c-8a4a-ca2812546d81")
+		)
+		(pin "25"
+			(uuid "7931ae23-8c41-4471-a482-421ff8b0d6c3")
+		)
+		(pin "20"
+			(uuid "495c8425-a632-40b4-96cb-345ee7b1cde4")
+		)
+		(pin "28"
+			(uuid "5d8bf1af-0898-4cef-991e-82861d54a914")
+		)
+		(pin "19"
+			(uuid "9f15359a-f284-4a2f-bb78-f067860bf904")
+		)
+		(pin "29"
+			(uuid "e14fc1f8-2d48-40ed-98fe-4d6d96203934")
+		)
+		(pin "30"
+			(uuid "f9a94375-1150-4491-a489-0f4ab045b026")
+		)
+		(pin "38"
+			(uuid "3c80f8ae-32e7-47bb-8185-87b1afdcdc9b")
+		)
+		(pin "18"
+			(uuid "02379b63-e626-4436-84a4-39c9bff706dc")
+		)
+		(pin "40"
+			(uuid "74a6acb0-e96a-46aa-98bc-a1b85d7a77ec")
+		)
+		(pin "36"
+			(uuid "4e2d56b6-4162-40d9-b8d7-68c4575982a8")
+		)
+		(pin "12"
+			(uuid "7cd14fd5-f904-42c1-8a22-2783205e2667")
+		)
+		(pin "43"
+			(uuid "660831dc-818b-45dd-b9b4-6b06e15426e7")
+		)
+		(pin "26"
+			(uuid "105a405b-fc90-4d5a-aa42-8763511bce1e")
+		)
+		(pin "44"
+			(uuid "7d054e99-e50c-48d7-ab7c-9610fed13f37")
+		)
+		(pin "41"
+			(uuid "b9fbd9eb-6e18-45a2-a1ee-ed3de9e155fa")
+		)
+		(pin "45"
+			(uuid "aa2b7a5e-d71e-4259-996d-4aff89024d34")
+		)
+		(pin "46"
+			(uuid "7286979f-d5a6-492e-a93f-4a54fd185d7f")
+		)
+		(pin "5"
+			(uuid "126b3356-9ef5-46f6-9d54-fe4d08d24737")
+		)
+		(pin "16"
+			(uuid "e121a42e-aacb-4b46-baaa-de87112c1336")
+		)
+		(pin "24"
+			(uuid "6a68d3b5-a00d-4448-a39d-a0d647e67772")
+		)
+		(pin "39"
+			(uuid "66996612-f2f4-473f-9991-68ed0231837e")
+		)
+		(pin "9"
+			(uuid "ddad79f5-812c-4705-aa86-c00c1191cc93")
+		)
+		(pin "27"
+			(uuid "10ee6f58-52e8-4ab2-9bb3-190fb1a127ca")
+		)
+		(pin "42"
+			(uuid "3fa89e64-52b2-420e-8d16-40821c44efa3")
+		)
+		(pin "22"
+			(uuid "a5432ec6-e595-4bb6-8de4-f52144a01d24")
+		)
+		(pin "47"
+			(uuid "bc0b757c-ff7a-49c3-81da-2c1ccb4d86b6")
+		)
+		(pin "34"
+			(uuid "36079326-6f5b-47d1-93bb-a4bc0e53f6b1")
+		)
+		(pin "49"
+			(uuid "35933dc1-afa2-49ed-ba9d-9131415c0046")
+		)
+		(pin "50"
+			(uuid "0e5ad898-941f-41b2-9899-2537484160f4")
+		)
+		(pin "99"
+			(uuid "15987a8e-b9d8-408b-9233-34e57c876baa")
+		)
+		(pin "98"
+			(uuid "2becc54f-3f64-4ca0-8896-730062b25cd2")
+		)
+		(pin "96"
+			(uuid "4c0a7eaf-ff62-4f2c-bf93-63811a609185")
+		)
+		(pin "95"
+			(uuid "0cf17542-3e4c-403f-aa85-ead87bf83b99")
+		)
+		(pin "94"
+			(uuid "4a6f3ad5-36dc-4aa8-af89-bffc2a60eac9")
+		)
+		(pin "97"
+			(uuid "f9ba7007-f6fa-4ca3-b0ac-ee318433fdf3")
+		)
+		(pin "92"
+			(uuid "9fec47ac-b5f3-4229-bf01-4d755bf0a1cc")
+		)
+		(pin "89"
+			(uuid "06e30f5b-afb5-499f-b3ab-481b5390ca4e")
+		)
+		(pin "88"
+			(uuid "741743e6-df9c-4d28-af0c-e56bf7666321")
+		)
+		(pin "90"
+			(uuid "1ca300a6-4b10-4470-b876-15227278b20d")
+		)
+		(pin "87"
+			(uuid "5375b1ef-c515-4cf8-9558-8c0fc7ba8a3b")
+		)
+		(pin "71"
+			(uuid "c3f88263-39e0-4af1-afa9-9d72179fa80a")
+		)
+		(pin "70"
+			(uuid "5cdb2119-c853-4114-bf36-986b3a7ac756")
+		)
+		(pin "67"
+			(uuid "27545a65-911b-4339-9f01-eb97bdc6de12")
+		)
+		(pin "65"
+			(uuid "a02c094d-f39a-41cb-bbb8-8f58b379ce9a")
+		)
+		(pin "80"
+			(uuid "9a01e4ae-d61e-416f-a911-c403101429a1")
+		)
+		(pin "84"
+			(uuid "61e4c400-2feb-4d52-a62b-9082d351cac1")
+		)
+		(pin "77"
+			(uuid "d7561583-e00d-4c95-91a4-fbe6fc3268b4")
+		)
+		(pin "74"
+			(uuid "72b7bd24-64eb-4ddd-89da-414fa18a5391")
+		)
+		(pin "73"
+			(uuid "9eac246e-8852-461d-a1d1-da9286374eaf")
+		)
+		(pin "69"
+			(uuid "eddb1294-3804-4f71-bc13-ff2df2a51cf1")
+		)
+		(pin "66"
+			(uuid "da40e8d7-bcbb-4d43-9445-63b0bb0aca64")
+		)
+		(pin "79"
+			(uuid "129a2163-9584-42a6-babc-b6646fd8a94a")
+		)
+		(pin "68"
+			(uuid "a79dbf29-5914-48c9-82c5-6773bd9a1b29")
+		)
+		(pin "83"
+			(uuid "c4b3a5fc-6a73-4f2e-b7f1-eb278d04f3bf")
+		)
+		(pin "81"
+			(uuid "925c9d82-eb17-4962-8224-2b77108a3808")
+		)
+		(pin "72"
+			(uuid "f5dcdd4f-3814-4814-afff-11dce39314e4")
+		)
+		(pin "76"
+			(uuid "a291dc75-bb98-4203-9c08-f7505da37bcc")
+		)
+		(pin "85"
+			(uuid "69d306f8-4364-45ef-8e2a-bfaeeeac9b73")
+		)
+		(pin "82"
+			(uuid "f6088c3f-eb02-4eb5-9693-34d0cdadbf9a")
+		)
+		(pin "78"
+			(uuid "652b77fa-16c9-45a9-a499-978f60bbca0d")
+		)
+		(pin "75"
+			(uuid "4e059e55-668a-49e1-beac-8022c15a9bfe")
+		)
+		(instances
+			(project ""
+				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -13155,7 +13514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ad16e0d-5470-445b-944c-af11eea8dbbf")
-		(property "Reference" "#PWR0245"
+		(property "Reference" "#PWR0255"
 			(at 213.36 48.26 0)
 			(effects
 				(font
@@ -13207,7 +13566,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0245")
+					(reference "#PWR0255")
 					(unit 1)
 				)
 			)
@@ -13222,7 +13581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52215a59-7d23-4d81-9be5-36aaefe898c6")
-		(property "Reference" "C85"
+		(property "Reference" "C91"
 			(at 42.418 85.344 0)
 			(effects
 				(font
@@ -13256,7 +13615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 37.592 82.042 90)
 			(effects
 				(font
@@ -13275,7 +13634,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C85")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -13290,7 +13649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "553934b6-4383-4313-b9a6-45442eb5487c")
-		(property "Reference" "#PWR0372"
+		(property "Reference" "#PWR0277"
 			(at 274.32 133.35 0)
 			(effects
 				(font
@@ -13343,7 +13702,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0372")
+					(reference "#PWR0277")
 					(unit 1)
 				)
 			)
@@ -13358,7 +13717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "559bb785-6b3c-4dd1-b9f5-b40f6e6c1bb4")
-		(property "Reference" "R161"
+		(property "Reference" "R160"
 			(at 70.104 96.266 90)
 			(effects
 				(font
@@ -13412,7 +13771,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R161")
+					(reference "R160")
 					(unit 1)
 				)
 			)
@@ -13524,7 +13883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a7860d1-a054-4271-8483-7dd3aba5fb7e")
-		(property "Reference" "J15"
+		(property "Reference" "J11"
 			(at 228.6 38.1 0)
 			(effects
 				(font
@@ -13639,7 +13998,7 @@
 		(instances
 			(project ""
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "J15")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -13654,7 +14013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5accf4b5-c1fd-4c0c-9ec0-32d300067b0b")
-		(property "Reference" "R162"
+		(property "Reference" "R167"
 			(at 234.188 19.05 90)
 			(effects
 				(font
@@ -13708,7 +14067,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R162")
+					(reference "R167")
 					(unit 1)
 				)
 			)
@@ -13723,7 +14082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "612f5884-6a25-4cbd-ae12-5d4cbff333eb")
-		(property "Reference" "R146"
+		(property "Reference" "R161"
 			(at 208.026 123.19 90)
 			(effects
 				(font
@@ -13777,7 +14136,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R146")
+					(reference "R161")
 					(unit 1)
 				)
 			)
@@ -13792,7 +14151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "618437c7-ca44-48de-a62c-50b796fb4184")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0239"
 			(at 36.83 121.92 0)
 			(effects
 				(font
@@ -13842,7 +14201,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0224")
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -13857,7 +14216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6184de8e-849e-48ae-894a-d7f019055389")
-		(property "Reference" "#PWR0273"
+		(property "Reference" "#PWR0250"
 			(at 62.23 87.63 0)
 			(effects
 				(font
@@ -13907,7 +14266,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0273")
+					(reference "#PWR0250")
 					(unit 1)
 				)
 			)
@@ -13922,7 +14281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64336d0a-f89f-41f2-a0b2-c5d8da4bb0f1")
-		(property "Reference" "C106"
+		(property "Reference" "C102"
 			(at 219.71 35.052 90)
 			(effects
 				(font
@@ -13956,7 +14315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 216.154 39.116 90)
 			(effects
 				(font
@@ -13973,7 +14332,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C106")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -13988,7 +14347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67c622bb-d1ca-4325-8af2-44f836864a11")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR0241"
 			(at 40.64 104.14 0)
 			(effects
 				(font
@@ -14041,7 +14400,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0227")
+					(reference "#PWR0241")
 					(unit 1)
 				)
 			)
@@ -14056,7 +14415,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "689d0c49-dd55-463d-b91a-6d2ba536cbec")
-		(property "Reference" "#PWR0321"
+		(property "Reference" "#PWR0278"
 			(at 274.32 154.94 0)
 			(effects
 				(font
@@ -14106,7 +14465,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0321")
+					(reference "#PWR0278")
 					(unit 1)
 				)
 			)
@@ -14121,7 +14480,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b22a5b7-be01-4fb3-b29d-9be3c77e5697")
-		(property "Reference" "C89"
+		(property "Reference" "C94"
 			(at 47.752 110.744 90)
 			(effects
 				(font
@@ -14155,7 +14514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 48.768 111.506 90)
 			(effects
 				(font
@@ -14172,7 +14531,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C89")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -14188,7 +14547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b4aa436-8a56-4e64-a678-452e0dfd5fd8")
-		(property "Reference" "U31"
+		(property "Reference" "U24"
 			(at 276.352 133.604 0)
 			(effects
 				(font
@@ -14245,7 +14604,7 @@
 		(instances
 			(project ""
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "U31")
+					(reference "U24")
 					(unit 1)
 				)
 			)
@@ -14260,7 +14619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b981967-efc9-4fc1-bdab-1832ab831a41")
-		(property "Reference" "#PWR0280"
+		(property "Reference" "#PWR0263"
 			(at 255.27 60.96 0)
 			(effects
 				(font
@@ -14310,7 +14669,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0280")
+					(reference "#PWR0263")
 					(unit 1)
 				)
 			)
@@ -14325,7 +14684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c7c580f-d327-46c8-a100-d87ff8e95c18")
-		(property "Reference" "C84"
+		(property "Reference" "C90"
 			(at 34.544 114.808 0)
 			(effects
 				(font
@@ -14359,7 +14718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 39.116 110.998 90)
 			(effects
 				(font
@@ -14376,7 +14735,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C84")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -14391,7 +14750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6dc0ff64-fe80-4503-bc42-db4dbc74e940")
-		(property "Reference" "C104"
+		(property "Reference" "C115"
 			(at 276.352 86.36 0)
 			(effects
 				(font
@@ -14425,7 +14784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 270.764 87.376 90)
 			(effects
 				(font
@@ -14442,7 +14801,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C104")
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -14457,7 +14816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71d8129a-f554-46d1-bc16-159b414863f6")
-		(property "Reference" "#PWR0244"
+		(property "Reference" "#PWR0270"
 			(at 269.24 105.41 0)
 			(effects
 				(font
@@ -14510,7 +14869,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0244")
+					(reference "#PWR0270")
 					(unit 1)
 				)
 			)
@@ -14525,7 +14884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71e3cff1-0edd-44a6-9f1f-97b67d5c21ee")
-		(property "Reference" "R147"
+		(property "Reference" "R168"
 			(at 247.65 85.09 90)
 			(effects
 				(font
@@ -14579,7 +14938,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R147")
+					(reference "R168")
 					(unit 1)
 				)
 			)
@@ -14594,7 +14953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79ec8e44-d28e-4a7d-9183-fd5d3f681afd")
-		(property "Reference" "C99"
+		(property "Reference" "C110"
 			(at 263.906 122.428 90)
 			(effects
 				(font
@@ -14628,7 +14987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 260.35 121.92 90)
 			(effects
 				(font
@@ -14645,7 +15004,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C99")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -14660,7 +15019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82639454-58cf-4de0-9227-24e034de5fe6")
-		(property "Reference" "R151"
+		(property "Reference" "R164"
 			(at 216.916 25.908 90)
 			(effects
 				(font
@@ -14714,7 +15073,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R151")
+					(reference "R164")
 					(unit 1)
 				)
 			)
@@ -14798,7 +15157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "850f7bb2-e93f-4e38-93fd-e0e3707b66a6")
-		(property "Reference" "C101"
+		(property "Reference" "C113"
 			(at 270.51 121.666 0)
 			(effects
 				(font
@@ -14832,7 +15191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 266.954 123.19 90)
 			(effects
 				(font
@@ -14849,7 +15208,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C101")
+					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -14864,7 +15223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86f0b009-613f-4a1e-a3f8-8285a5520ea7")
-		(property "Reference" "R166"
+		(property "Reference" "R173"
 			(at 271.018 51.308 90)
 			(effects
 				(font
@@ -14919,7 +15278,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R166")
+					(reference "R173")
 					(unit 1)
 				)
 			)
@@ -14934,7 +15293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90ee60cb-e575-4465-bfc7-2667a2c59096")
-		(property "Reference" "#PWR0237"
+		(property "Reference" "#PWR0265"
 			(at 257.81 129.54 0)
 			(effects
 				(font
@@ -14984,7 +15343,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0237")
+					(reference "#PWR0265")
 					(unit 1)
 				)
 			)
@@ -14999,7 +15358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92bd00ac-7fc5-4ad1-98ee-96db45188fa3")
-		(property "Reference" "#PWR0272"
+		(property "Reference" "#PWR0245"
 			(at 53.34 80.01 0)
 			(effects
 				(font
@@ -15052,7 +15411,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0272")
+					(reference "#PWR0245")
 					(unit 1)
 				)
 			)
@@ -15067,7 +15426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93e0973f-f91f-4902-a632-c1863565af0a")
-		(property "Reference" "C100"
+		(property "Reference" "C112"
 			(at 265.938 88.392 0)
 			(effects
 				(font
@@ -15101,7 +15460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 267.716 82.804 0)
 			(effects
 				(font
@@ -15118,7 +15477,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C100")
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -15133,7 +15492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "954d56bc-2805-4560-9409-10ce9d5e85ac")
-		(property "Reference" "#PWR0241"
+		(property "Reference" "#PWR0267"
 			(at 262.89 129.54 0)
 			(effects
 				(font
@@ -15183,7 +15542,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0241")
+					(reference "#PWR0267")
 					(unit 1)
 				)
 			)
@@ -15198,7 +15557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "961f3b2d-7b2b-4a09-974e-04e24c0a91fc")
-		(property "Reference" "C97"
+		(property "Reference" "C107"
 			(at 258.826 122.428 90)
 			(effects
 				(font
@@ -15232,7 +15591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 255.524 119.888 90)
 			(effects
 				(font
@@ -15249,7 +15608,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C97")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -15264,7 +15623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bbe56f4-5491-4d23-8495-43867bf745c5")
-		(property "Reference" "R164"
+		(property "Reference" "R171"
 			(at 271.018 46.228 90)
 			(effects
 				(font
@@ -15319,7 +15678,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R164")
+					(reference "R171")
 					(unit 1)
 				)
 			)
@@ -15334,7 +15693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bf7d301-76b8-4f04-b8f9-2a2c3c1971eb")
-		(property "Reference" "C91"
+		(property "Reference" "C96"
 			(at 53.848 110.744 90)
 			(effects
 				(font
@@ -15368,7 +15727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 52.578 111.506 90)
 			(effects
 				(font
@@ -15385,7 +15744,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C91")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -15400,7 +15759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cfbe073-1b5f-4aa9-8cc8-4594ee9eb665")
-		(property "Reference" "C93"
+		(property "Reference" "C99"
 			(at 55.372 110.744 90)
 			(effects
 				(font
@@ -15434,7 +15793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 56.388 111.506 90)
 			(effects
 				(font
@@ -15451,7 +15810,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C93")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -15466,7 +15825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a04df315-50d5-4381-b304-43c59e9ae1c2")
-		(property "Reference" "R144"
+		(property "Reference" "R162"
 			(at 210.566 59.69 90)
 			(effects
 				(font
@@ -15520,7 +15879,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R144")
+					(reference "R162")
 					(unit 1)
 				)
 			)
@@ -15536,7 +15895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a23b4376-fb35-4b22-b8fe-036289ccc5d1")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 33.655 15.24 0)
 			(effects
 				(font
@@ -15612,7 +15971,7 @@
 		(instances
 			(project ""
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -15627,7 +15986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa6cc753-c4f7-435d-b269-e8d23a05565d")
-		(property "Reference" "R149"
+		(property "Reference" "R169"
 			(at 257.048 95.758 90)
 			(effects
 				(font
@@ -15681,7 +16040,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R149")
+					(reference "R169")
 					(unit 1)
 				)
 			)
@@ -15696,7 +16055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af9e45e3-cc6b-4af4-8db4-50276f3133d3")
-		(property "Reference" "#PWR0248"
+		(property "Reference" "#PWR0273"
 			(at 273.05 77.47 0)
 			(effects
 				(font
@@ -15749,7 +16108,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0248")
+					(reference "#PWR0273")
 					(unit 1)
 				)
 			)
@@ -15764,7 +16123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b208396c-102d-415a-80b4-dfa936bb83d0")
-		(property "Reference" "#PWR0240"
+		(property "Reference" "#PWR0266"
 			(at 261.62 104.14 0)
 			(effects
 				(font
@@ -15814,7 +16173,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0240")
+					(reference "#PWR0266")
 					(unit 1)
 				)
 			)
@@ -15829,7 +16188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2619833-05bd-4b67-be69-90a1451ff1d9")
-		(property "Reference" "#PWR0235"
+		(property "Reference" "#PWR0258"
 			(at 218.44 127 0)
 			(effects
 				(font
@@ -15882,7 +16241,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0235")
+					(reference "#PWR0258")
 					(unit 1)
 				)
 			)
@@ -15897,7 +16256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5fb303b-41ef-4d13-820f-d39c36237003")
-		(property "Reference" "#PWR0252"
+		(property "Reference" "#PWR0279"
 			(at 280.67 128.27 0)
 			(effects
 				(font
@@ -15947,7 +16306,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0252")
+					(reference "#PWR0279")
 					(unit 1)
 				)
 			)
@@ -15962,7 +16321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7d64559-23b2-46e7-a7e9-8e4dceb4d1fd")
-		(property "Reference" "#PWR0275"
+		(property "Reference" "#PWR0251"
 			(at 68.58 88.9 0)
 			(effects
 				(font
@@ -16015,7 +16374,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0275")
+					(reference "#PWR0251")
 					(unit 1)
 				)
 			)
@@ -16030,7 +16389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbc62dcb-9486-49d8-993a-b161d6eb59b3")
-		(property "Reference" "#PWR0239"
+		(property "Reference" "#PWR0261"
 			(at 234.95 68.58 0)
 			(effects
 				(font
@@ -16080,7 +16439,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0239")
+					(reference "#PWR0261")
 					(unit 1)
 				)
 			)
@@ -16095,7 +16454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc57faab-6fb5-4e42-95c8-4ff5b32fab04")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0235"
 			(at 31.75 123.19 0)
 			(effects
 				(font
@@ -16145,7 +16504,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0221")
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
@@ -16160,7 +16519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bec5d64d-1ef9-4f1f-bded-69b0384441ac")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0240"
 			(at 39.37 93.98 0)
 			(effects
 				(font
@@ -16210,7 +16569,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0226")
+					(reference "#PWR0240")
 					(unit 1)
 				)
 			)
@@ -16225,7 +16584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1139bdf-01d1-42d7-b522-6ae6cfdbd15c")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0237"
 			(at 34.29 90.17 0)
 			(effects
 				(font
@@ -16275,7 +16634,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0220")
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -16290,7 +16649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c31041ce-a402-4ecd-b7ac-e577e4b4332a")
-		(property "Reference" "#PWR0279"
+		(property "Reference" "#PWR0262"
 			(at 238.76 46.99 0)
 			(effects
 				(font
@@ -16340,379 +16699,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0279")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "FT900L-C-T_1")
-		(lib_id "MICROS_DIGITAL_GSI:FT900L-C-T")
-		(at 106.68 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c32a6254-83ac-4393-af20-92a47800d8ca")
-		(property "Reference" "U1"
-			(at 149.86 41.656 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 5.6388 5.6388)
-					(thickness 1.1278)
-					(bold yes)
-					(color 0 0 255 1)
-				)
-			)
-		)
-		(property "Value" "FT900L-C-T"
-			(at 147.574 54.356 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 2.8194 2.8194)
-					(thickness 0.5639)
-					(bold yes)
-					(color 0 0 255 1)
-				)
-			)
-		)
-		(property "Footprint" "footprints:LQFP_100_14X14X1P4_BRI"
-			(at 106.68 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "FT900L-C-T"
-			(at 106.68 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "15"
-			(uuid "eb1e4324-0f1c-4072-960f-da00bc9610bd")
-		)
-		(pin "16"
-			(uuid "c4039222-fe84-40e0-b019-eb3a96fcddb8")
-		)
-		(pin "20"
-			(uuid "347555f1-7b8f-4454-90e9-de125a4ca95f")
-		)
-		(pin "23"
-			(uuid "10b11138-878b-4d56-bf8f-961181e8814b")
-		)
-		(pin "21"
-			(uuid "06240299-c742-4203-a881-57d3535db04e")
-		)
-		(pin "25"
-			(uuid "2735559b-39d9-4d2f-b9bb-d86b22042d2b")
-		)
-		(pin "36"
-			(uuid "e377c88a-05b6-4520-86a6-bfcb2acbac69")
-		)
-		(pin "37"
-			(uuid "32bc9ef3-a958-445d-8965-e71a1f34962e")
-		)
-		(pin "38"
-			(uuid "ed86c330-5619-4617-ac8c-f46a0772b24b")
-		)
-		(pin "39"
-			(uuid "31a34d2b-0d38-4d3b-a987-230278598cee")
-		)
-		(pin "17"
-			(uuid "c91981a0-237d-4425-9ae3-6b6462ea19bd")
-		)
-		(pin "18"
-			(uuid "97b1b3f2-2cbc-4bb1-8fe2-e6867b20f7a5")
-		)
-		(pin "19"
-			(uuid "cc658e81-3157-41fe-a59c-28fd63cdaa4c")
-		)
-		(pin "22"
-			(uuid "2b9dd0b2-5960-4724-9ecd-987f51d73bb3")
-		)
-		(pin "24"
-			(uuid "6fbf33a0-5203-48e6-ae13-96982fae09df")
-		)
-		(pin "26"
-			(uuid "ae416166-6fdb-48a9-9298-f90a541cf9df")
-		)
-		(pin "27"
-			(uuid "d9396244-0f73-48d1-962c-da27394c368c")
-		)
-		(pin "28"
-			(uuid "a4038714-c85f-4391-bf22-818e72f43d16")
-		)
-		(pin "29"
-			(uuid "1a001d61-e406-4b41-a4e0-10f5c4a9de44")
-		)
-		(pin "30"
-			(uuid "d84adb0a-0a4d-4fd8-825f-3a382b92c690")
-		)
-		(pin "31"
-			(uuid "2155235a-86e8-4eb5-b068-f6f1a10c3e41")
-		)
-		(pin "32"
-			(uuid "6ee9bd40-e4e6-4935-a61e-06a00df096c0")
-		)
-		(pin "33"
-			(uuid "a7acd851-60ae-42d5-b91c-aadebc1529f3")
-		)
-		(pin "34"
-			(uuid "8780915e-337c-443a-9c91-ed29a1a41da8")
-		)
-		(pin "35"
-			(uuid "2c48b548-a0a9-4440-af17-7bc21af48073")
-		)
-		(pin "1"
-			(uuid "a60cf1d8-1e42-47ad-a4cf-939c67844d3d")
-		)
-		(pin "2"
-			(uuid "4ee985bd-c281-4352-b88d-cb9291e1bfcc")
-		)
-		(pin "3"
-			(uuid "4973a024-4b4e-4813-94bd-e39670024b89")
-		)
-		(pin "4"
-			(uuid "df4250a9-fc53-4ff3-b8c2-b60897696ec7")
-		)
-		(pin "5"
-			(uuid "fd09fa63-4b60-4e6f-903a-0ed17f988fa5")
-		)
-		(pin "7"
-			(uuid "8d43afc0-c4e8-4431-86cf-bc5847a61346")
-		)
-		(pin "8"
-			(uuid "cf5e7d97-a547-4980-8f52-2ab016a7ae72")
-		)
-		(pin "11"
-			(uuid "6da15667-f207-4664-b3cb-6acb1fcabc77")
-		)
-		(pin "12"
-			(uuid "212d271d-6af8-4c4d-b9a8-e941777d9ec9")
-		)
-		(pin "6"
-			(uuid "10b46f0f-a094-4b9f-98ac-4c0b761b1a25")
-		)
-		(pin "13"
-			(uuid "1f1b2329-7809-4ac7-922f-c6df95c6475d")
-		)
-		(pin "9"
-			(uuid "509dcc98-4e93-4659-94e1-f9ce41a3f349")
-		)
-		(pin "10"
-			(uuid "13870be1-35e4-42eb-a98b-8323de760721")
-		)
-		(pin "14"
-			(uuid "c8393b62-9efb-4886-8aaf-827b21865a06")
-		)
-		(pin "73"
-			(uuid "535b8d92-bdd7-4685-9017-c95581a3285d")
-		)
-		(pin "71"
-			(uuid "03059e30-a78c-4143-a4e5-8d12c6d1ed73")
-		)
-		(pin "54"
-			(uuid "c138f78d-4dc3-451f-959f-b763b6304492")
-		)
-		(pin "53"
-			(uuid "a1b1208d-39c5-4a1a-88e9-911038e16e6c")
-		)
-		(pin "69"
-			(uuid "89d69e80-daab-4de7-b263-c176c5e255b2")
-		)
-		(pin "56"
-			(uuid "b1e51ed1-26fc-425d-af6a-62c58d639658")
-		)
-		(pin "51"
-			(uuid "04101c5b-4586-4655-8a92-047e63f51448")
-		)
-		(pin "63"
-			(uuid "cea30500-e646-4f41-a1c5-44c60c3fa7be")
-		)
-		(pin "61"
-			(uuid "799b38b4-0a50-4c36-b3ab-0ac9275da619")
-		)
-		(pin "57"
-			(uuid "16ba5615-0884-435b-8f8e-4ac85b5bdc5c")
-		)
-		(pin "68"
-			(uuid "31a5f009-c316-4220-80f4-a42a5a30e8b1")
-		)
-		(pin "62"
-			(uuid "fd6a44bd-bc19-4906-81f8-ce0bce06a1e3")
-		)
-		(pin "55"
-			(uuid "55068a41-21c9-47d1-9066-c2ee8a1748b0")
-		)
-		(pin "67"
-			(uuid "fb80a12f-5b05-4c05-8246-c4e97c5afd81")
-		)
-		(pin "64"
-			(uuid "a85ad16c-3785-4419-ad43-cb1b6378cb08")
-		)
-		(pin "59"
-			(uuid "db5cf0b0-3bd1-4b5c-b470-dfb0ab0637c8")
-		)
-		(pin "86"
-			(uuid "2176492d-c691-46ab-a34f-2bd441e16f9d")
-		)
-		(pin "74"
-			(uuid "a33f320a-ff60-4e87-b9f7-e8ff2da6615c")
-		)
-		(pin "66"
-			(uuid "bba9aa2f-b0c2-4b54-893e-2bd21922d9fb")
-		)
-		(pin "65"
-			(uuid "54596bb2-51a2-4111-9760-888b0942feda")
-		)
-		(pin "70"
-			(uuid "eea851eb-5d2f-4439-ab3e-f63c0b849e4a")
-		)
-		(pin "72"
-			(uuid "d527baf3-3705-4fbd-b4af-ff2dcc7a6d78")
-		)
-		(pin "58"
-			(uuid "ac1319d4-7214-4299-ba47-a1bf2fab3eab")
-		)
-		(pin "52"
-			(uuid "741c429f-301c-44f3-848a-d5878ded7520")
-		)
-		(pin "60"
-			(uuid "82549181-22a9-4091-a429-463604b36291")
-		)
-		(pin "48"
-			(uuid "1e9b65c9-4568-4d45-8365-548be32a39de")
-		)
-		(pin "98"
-			(uuid "d33c4669-dc93-477c-9235-ccdfdbca08b8")
-		)
-		(pin "96"
-			(uuid "9e99d044-cd4b-471d-a689-fdea6f8228b4")
-		)
-		(pin "46"
-			(uuid "e10ba763-ff93-45e6-86d3-6be4d1e0c162")
-		)
-		(pin "49"
-			(uuid "3a8bc002-80b0-41ab-8ef2-be0c933f8eff")
-		)
-		(pin "43"
-			(uuid "da09cb80-113d-427a-9aba-af3e0410aabb")
-		)
-		(pin "47"
-			(uuid "7378a637-72d8-4384-88fd-e444df261336")
-		)
-		(pin "50"
-			(uuid "d936ed5d-de57-4467-8b12-374085876994")
-		)
-		(pin "40"
-			(uuid "99edcc94-404a-4d36-afc6-a535ba9ce251")
-		)
-		(pin "41"
-			(uuid "5c0cc920-3ca8-4277-9a7b-e8c3f12e2288")
-		)
-		(pin "44"
-			(uuid "2f187e3e-7b03-406d-bd3a-28c13b3ab3b4")
-		)
-		(pin "42"
-			(uuid "4d7cde90-e8db-42e1-ac8c-1947198301ba")
-		)
-		(pin "45"
-			(uuid "4d45d1db-9e41-464b-83c3-975ffea73201")
-		)
-		(pin "100"
-			(uuid "cb88ba80-a620-419d-87b0-99cbe7de9a87")
-		)
-		(pin "99"
-			(uuid "a5df97f4-fc50-4cfd-a7cf-828ee592dc64")
-		)
-		(pin "97"
-			(uuid "6cef9bc1-ca48-4d5e-a9e6-1b3c949a33b2")
-		)
-		(pin "95"
-			(uuid "cd6c3484-a1bd-4f95-a24f-750b3aa6f3a9")
-		)
-		(pin "94"
-			(uuid "c0d1a108-26b5-4e2c-b1f6-79315ac1d9a3")
-		)
-		(pin "93"
-			(uuid "a75f422f-39a3-4227-be1e-cbdbe1ebe4f0")
-		)
-		(pin "92"
-			(uuid "f7e12c94-0591-4b6d-a984-7aa799d3442f")
-		)
-		(pin "91"
-			(uuid "e5bd00ed-5bfc-4166-8257-29635407d97f")
-		)
-		(pin "90"
-			(uuid "b53b246a-6d98-4cfe-a50a-d5f279825098")
-		)
-		(pin "89"
-			(uuid "5a87772d-fb63-4834-b229-5a28e99a2636")
-		)
-		(pin "82"
-			(uuid "5bd9ab4c-d400-46ba-9702-0cab0fa9b867")
-		)
-		(pin "80"
-			(uuid "9aafe4e9-0796-4813-8089-8f8f36b4f3d5")
-		)
-		(pin "77"
-			(uuid "1958af54-44f6-4185-96b8-8650e695fbee")
-		)
-		(pin "76"
-			(uuid "2dbc52ad-f3e3-4bac-8685-e14e61c2c566")
-		)
-		(pin "88"
-			(uuid "90602201-6511-4ac4-bcfa-747fe330e603")
-		)
-		(pin "87"
-			(uuid "271afc4a-4f8c-401e-aa24-cd5aaafd3de2")
-		)
-		(pin "85"
-			(uuid "6fb0efe5-6a09-47b9-8f06-646575dc8248")
-		)
-		(pin "84"
-			(uuid "24dc3ae4-8f61-43de-b3d9-ef20e88b674a")
-		)
-		(pin "83"
-			(uuid "f9cceb8a-18ef-46f6-b74f-f77ce2e69e53")
-		)
-		(pin "81"
-			(uuid "f0ad4a01-feba-48b1-98c3-fef6e93cb279")
-		)
-		(pin "79"
-			(uuid "09a44f68-4d2c-42dc-b2ab-526fb757bd79")
-		)
-		(pin "78"
-			(uuid "cf7ad98f-32a7-45f8-b4bb-ec795badfe91")
-		)
-		(pin "75"
-			(uuid "b8a5de8b-fa2d-43b1-8fa3-53682f4181ad")
-		)
-		(instances
-			(project ""
-				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "U1")
+					(reference "#PWR0262")
 					(unit 1)
 				)
 			)
@@ -16727,7 +16714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c598463f-a1e8-468d-8bd5-6eba969c99e5")
-		(property "Reference" "#PWR0231"
+		(property "Reference" "#PWR0244"
 			(at 48.26 74.93 0)
 			(effects
 				(font
@@ -16781,7 +16768,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0231")
+					(reference "#PWR0244")
 					(unit 1)
 				)
 			)
@@ -16796,7 +16783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6566cc0-1e65-47d2-8e82-f0f970375d43")
-		(property "Reference" "R148"
+		(property "Reference" "R165"
 			(at 232.156 130.81 90)
 			(effects
 				(font
@@ -16850,7 +16837,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R148")
+					(reference "R165")
 					(unit 1)
 				)
 			)
@@ -16865,7 +16852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9c007c0-7663-4c68-b666-f357cdea9402")
-		(property "Reference" "C83"
+		(property "Reference" "C89"
 			(at 34.29 112.776 0)
 			(effects
 				(font
@@ -16899,7 +16886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 29.464 111.506 90)
 			(effects
 				(font
@@ -16916,7 +16903,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C83")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -16931,7 +16918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb4fac9b-882a-49c3-9ecb-1f943680979d")
-		(property "Reference" "#PWR0281"
+		(property "Reference" "#PWR0254"
 			(at 100.33 139.7 0)
 			(effects
 				(font
@@ -16981,7 +16968,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0281")
+					(reference "#PWR0254")
 					(unit 1)
 				)
 			)
@@ -16998,7 +16985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc33c283-8b13-47a3-a665-8041bb986138")
-		(property "Reference" "L15"
+		(property "Reference" "L13"
 			(at 204.47 31.75 90)
 			(effects
 				(font
@@ -17050,7 +17037,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "L15")
+					(reference "L13")
 					(unit 1)
 				)
 			)
@@ -17065,7 +17052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfb493c8-0532-4f9d-9b79-84030732277a")
-		(property "Reference" "#PWR0387"
+		(property "Reference" "#PWR0249"
 			(at 62.23 19.05 0)
 			(effects
 				(font
@@ -17118,7 +17105,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0387")
+					(reference "#PWR0249")
 					(unit 1)
 				)
 			)
@@ -17133,7 +17120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d30e0218-4a55-4c48-a215-f6518910fa9c")
-		(property "Reference" "C92"
+		(property "Reference" "C98"
 			(at 54.864 18.288 0)
 			(effects
 				(font
@@ -17167,7 +17154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 58.166 19.304 90)
 			(effects
 				(font
@@ -17184,7 +17171,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C92")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -17199,7 +17186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d323300f-63fe-48a1-b445-30f651e17795")
-		(property "Reference" "#PWR0238"
+		(property "Reference" "#PWR0259"
 			(at 232.41 134.62 0)
 			(effects
 				(font
@@ -17252,7 +17239,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0238")
+					(reference "#PWR0259")
 					(unit 1)
 				)
 			)
@@ -17267,7 +17254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d36973d5-13f2-4ef6-852e-69949a9a5cfe")
-		(property "Reference" "R145"
+		(property "Reference" "R163"
 			(at 210.566 62.23 90)
 			(effects
 				(font
@@ -17321,7 +17308,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R145")
+					(reference "R163")
 					(unit 1)
 				)
 			)
@@ -17336,7 +17323,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d50df2b9-981e-43ee-9adf-eb2d91516fa5")
-		(property "Reference" "C95"
+		(property "Reference" "C104"
 			(at 226.06 65.786 90)
 			(effects
 				(font
@@ -17370,7 +17357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 231.394 65.532 90)
 			(effects
 				(font
@@ -17387,7 +17374,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C95")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -17402,7 +17389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d68e7079-df27-4c7e-bb31-0c2f5b6d2c1d")
-		(property "Reference" "#PWR0230"
+		(property "Reference" "#PWR0243"
 			(at 46.99 123.19 0)
 			(effects
 				(font
@@ -17452,7 +17439,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0230")
+					(reference "#PWR0243")
 					(unit 1)
 				)
 			)
@@ -17467,7 +17454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6cd0a15-364a-45ae-8e4f-752cd99a466b")
-		(property "Reference" "C103"
+		(property "Reference" "C101"
 			(at 214.63 40.894 90)
 			(effects
 				(font
@@ -17501,7 +17488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 212.598 40.386 90)
 			(effects
 				(font
@@ -17518,7 +17505,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C103")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -17533,7 +17520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db33e0f0-c5d4-433a-9960-0b591c362991")
-		(property "Reference" "C88"
+		(property "Reference" "C93"
 			(at 46.228 110.744 90)
 			(effects
 				(font
@@ -17567,7 +17554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 44.958 111.506 90)
 			(effects
 				(font
@@ -17584,7 +17571,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C88")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -17599,7 +17586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddf4e97d-33aa-4b7b-b1be-7e5154e4391e")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0236"
 			(at 33.02 101.6 0)
 			(effects
 				(font
@@ -17652,7 +17639,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0222")
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -17667,7 +17654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e03032d8-0e2e-4c73-8dc3-b07a555338a5")
-		(property "Reference" "C87"
+		(property "Reference" "C92"
 			(at 42.418 110.998 90)
 			(effects
 				(font
@@ -17703,7 +17690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 41.148 111.506 90)
 			(effects
 				(font
@@ -17720,7 +17707,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C87")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -17735,7 +17722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e23af555-eb77-4bec-af2e-02e4c9c0a7c5")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0275"
 			(at 273.05 105.41 0)
 			(effects
 				(font
@@ -17788,7 +17775,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0223")
+					(reference "#PWR0275")
 					(unit 1)
 				)
 			)
@@ -17803,7 +17790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2e71a31-f7c1-48d5-a55c-7844f81a1b0b")
-		(property "Reference" "C118"
+		(property "Reference" "C111"
 			(at 262.89 41.148 90)
 			(effects
 				(font
@@ -17837,7 +17824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 266.446 44.196 90)
 			(effects
 				(font
@@ -17854,7 +17841,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C118")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -17870,7 +17857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb17b2bd-31b0-4577-b9e0-4e4445e83e2a")
-		(property "Reference" "#PWR0276"
+		(property "Reference" "#PWR0272"
 			(at 271.78 20.32 0)
 			(effects
 				(font
@@ -17923,7 +17910,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0276")
+					(reference "#PWR0272")
 					(unit 1)
 				)
 			)
@@ -17938,7 +17925,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed362d38-9dce-4de3-9087-96ce41527604")
-		(property "Reference" "C105"
+		(property "Reference" "C116"
 			(at 275.082 123.19 0)
 			(effects
 				(font
@@ -17972,7 +17959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 275.336 118.364 90)
 			(effects
 				(font
@@ -17989,7 +17976,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C105")
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -18004,7 +17991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed61d052-57ad-459d-af63-76dfcd7d1812")
-		(property "Reference" "R165"
+		(property "Reference" "R172"
 			(at 271.018 48.768 90)
 			(effects
 				(font
@@ -18059,7 +18046,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R165")
+					(reference "R172")
 					(unit 1)
 				)
 			)
@@ -18074,7 +18061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed98db78-c085-4ce2-8575-9722e783423a")
-		(property "Reference" "R141"
+		(property "Reference" "R156"
 			(at 29.972 105.41 0)
 			(effects
 				(font
@@ -18128,7 +18115,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R141")
+					(reference "R156")
 					(unit 1)
 				)
 			)
@@ -18143,7 +18130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eed88a6a-ddcb-471b-a380-29b6cb7fe27a")
-		(property "Reference" "#PWR0277"
+		(property "Reference" "#PWR0271"
 			(at 270.51 48.26 0)
 			(effects
 				(font
@@ -18193,7 +18180,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0277")
+					(reference "#PWR0271")
 					(unit 1)
 				)
 			)
@@ -18208,7 +18195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efde3358-cc4b-4feb-93c3-bfc55e53ea5c")
-		(property "Reference" "C98"
+		(property "Reference" "C109"
 			(at 262.89 90.17 90)
 			(effects
 				(font
@@ -18242,7 +18229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 259.588 88.646 90)
 			(effects
 				(font
@@ -18261,7 +18248,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C98")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -18276,7 +18263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3199736-b28e-4eca-9d01-1a8665548905")
-		(property "Reference" "R143"
+		(property "Reference" "R158"
 			(at 74.676 107.95 90)
 			(effects
 				(font
@@ -18330,7 +18317,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "R143")
+					(reference "R158")
 					(unit 1)
 				)
 			)
@@ -18345,7 +18332,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5c3953c-3289-4217-91c2-32aadc6f3b82")
-		(property "Reference" "#PWR0234"
+		(property "Reference" "#PWR0252"
 			(at 87.63 138.43 0)
 			(effects
 				(font
@@ -18398,7 +18385,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0234")
+					(reference "#PWR0252")
 					(unit 1)
 				)
 			)
@@ -18413,7 +18400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f618bd40-ef99-45e2-b8b9-bfe3d576f948")
-		(property "Reference" "#PWR0228"
+		(property "Reference" "#PWR0253"
 			(at 91.44 149.86 0)
 			(effects
 				(font
@@ -18463,7 +18450,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0228")
+					(reference "#PWR0253")
 					(unit 1)
 				)
 			)
@@ -18478,7 +18465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f890c8c9-5736-4099-89ae-4463d726ac90")
-		(property "Reference" "C107"
+		(property "Reference" "C117"
 			(at 282.956 103.124 0)
 			(effects
 				(font
@@ -18512,7 +18499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "COG NP0"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 284.226 96.52 90)
 			(effects
 				(font
@@ -18529,7 +18516,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C107")
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -18544,7 +18531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdd8f59a-5448-4156-b478-e4d5b61a49bb")
-		(property "Reference" "#PWR0246"
+		(property "Reference" "#PWR0256"
 			(at 215.9 29.21 0)
 			(effects
 				(font
@@ -18597,7 +18584,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "#PWR0246")
+					(reference "#PWR0256")
 					(unit 1)
 				)
 			)
@@ -18612,7 +18599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffa64e77-12f2-4ab2-86b0-28c00eb2b63c")
-		(property "Reference" "U6"
+		(property "Reference" "U22"
 			(at 49.022 86.106 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18679,7 +18666,7 @@
 		(instances
 			(project ""
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "U6")
+					(reference "U22")
 					(unit 1)
 				)
 			)

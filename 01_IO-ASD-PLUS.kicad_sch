@@ -3570,7 +3570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76f3ebe2-a025-4ee1-bba5-b4bdb6048807")
-		(property "Reference" "#PWR0294"
+		(property "Reference" "#PWR01"
 			(at 185.42 30.48 0)
 			(effects
 				(font
@@ -3623,7 +3623,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61"
-					(reference "#PWR0294")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3638,7 +3638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bea1ca58-4f8f-4705-84de-1308aea8a192")
-		(property "Reference" "R180"
+		(property "Reference" "R1"
 			(at 186.182 29.21 0)
 			(effects
 				(font
@@ -3700,7 +3700,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61"
-					(reference "R180")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3715,7 +3715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf0dd482-ef85-47ab-ab6f-08665386ea32")
-		(property "Reference" "R181"
+		(property "Reference" "R2"
 			(at 197.612 30.48 0)
 			(effects
 				(font
@@ -3777,7 +3777,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61"
-					(reference "R181")
+					(reference "R2")
 					(unit 1)
 				)
 			)

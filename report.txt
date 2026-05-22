@@ -1,0 +1,629 @@
+Info: Processing symbol 'BT1:'.
+Info: Processing symbol 'R236:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C1:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_1210_3225Metric'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C4:Capacitor_SMD:C_1210_3225Metric'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C6:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C7:Capacitor_SMD:C_1210_3225Metric'.
+Info: Processing symbol 'C8:Capacitor_SMD:C_1210_3225Metric'.
+Info: Processing symbol 'C9:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C10:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C11:Capacitor_THT:C_Rect_L26.5mm_W11.5mm_P22.50mm_MKS4'.
+Info: Processing symbol 'C12:Capacitor_THT:C_Rect_L26.5mm_W11.5mm_P22.50mm_MKS4'.
+Info: Processing symbol 'C13:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C14:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C15:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C16:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C17:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C18:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C19:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C20:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C21:Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P10.00mm'.
+Info: Processing symbol 'C22:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C23:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C24:Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P10.00mm'.
+Info: Processing symbol 'C25:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C26:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C27:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C28:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C29:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C40:Capacitor_Tantalum_SMD:CP_EIA-1608-10_AVX-L_HandSolder'.
+Info: Processing symbol 'C41:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C43:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C45:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C48:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C49:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C50:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C51:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C52:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C53:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C62:'.
+Info: Processing symbol 'R237:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C63:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C65:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C71:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C72:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C73:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C77:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C80:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C81:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C89:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C90:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C91:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C92:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C93:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C94:'.
+Info: Processing symbol 'R238:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C95:'.
+Info: Processing symbol 'R239:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C96:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C97:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C98:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C99:'.
+Info: Processing symbol 'R240:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C100:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C101:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C102:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C103:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C104:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C105:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C106:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C107:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C108:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C109:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C110:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C111:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C112:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C113:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C114:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C115:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C116:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C117:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C118:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C119:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C120:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C121:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C122:'.
+Info: Processing symbol 'R241:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C123:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C124:'.
+Info: Processing symbol 'R242:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C125:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C126:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C127:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C135:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C136:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C148:'.
+Info: Processing symbol 'R243:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C149:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C151:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C152:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C153:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C155:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C156:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C160:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C161:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C162:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C163:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C164:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C165:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C166:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C167:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C168:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C169:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C170:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C171:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C172:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C173:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'C174:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'CN1:CONECTORES GRACIDA:MicroMatch_10way_P1.75mm'.
+Info: Processing symbol 'R244:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R245:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R246:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R247:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R248:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R251:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R252:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R253:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R254:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R255:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'D1:LED_SMD:LED_0603_1608Metric'.
+Info: Processing symbol 'D2:LED_SMD:LED_0603_1608Metric'.
+Info: Processing symbol 'D3:LED_SMD:LED_0603_1608Metric'.
+Info: Processing symbol 'D4:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D5:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D6:Diode_SMD:D_SMA'.
+Info: Processing symbol 'D7:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D8:Diode_SMD:D_SMA'.
+Info: Processing symbol 'D9:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D10:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D11:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D12:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'D22:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D23:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D24:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D25:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D27:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D28:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D29:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D30:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D31:LED_SMD:LED_0402_1005Metric'.
+Info: Processing symbol 'D32:Diode_SMD:Nexperia_CFP3_SOD-123W'.
+Info: Processing symbol 'D33:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D34:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'D35:Diode_SMD:D_MiniMELF'.
+Info: Processing symbol 'D36:Diode_SMD:D_MiniMELF'.
+Info: Processing symbol 'D37:Diode_SMD:D_MiniMELF'.
+Info: Processing symbol 'D38:Diode_SMD:D_MiniMELF'.
+Info: Processing symbol 'D39:LED_SMD:LED_0402_1005Metric'.
+Info: Processing symbol 'D40:Diode_SMD:D_MiniMELF'.
+Info: Processing symbol 'F1:'.
+Info: Processing symbol 'R256:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'F2:'.
+Info: Processing symbol 'R257:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'F3:'.
+Info: Processing symbol 'R258:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'F4:'.
+Info: Processing symbol 'R259:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'F5:'.
+Info: Processing symbol 'R260:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'F6:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'F7:'.
+Info: Processing symbol 'R261:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'IC4:Package_SO:ST_PowerSSO-24_SlugDown_ThermalVias'.
+Info: Processing symbol 'J*4:CONECTORES GRACIDA:16POS-2LINEAS-3.5PITCH'.
+Info: Processing symbol 'R262:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R263:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R264:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R265:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R266:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R267:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R268:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R269:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R270:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R271:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R272:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R273:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R274:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R275:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R276:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R277:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'J1:CONECTORES GRACIDA:3POS-5.08PITCH'.
+Info: Processing symbol 'J2:CONECTORES GRACIDA:3POS-5.08PITCH'.
+Info: Processing symbol 'J3:CONECTORES GRACIDA:3POS-5.08PITCH'.
+Info: Processing symbol 'J4:CONECTORES GRACIDA:2POS-PITCH3.5MM'.
+Info: Processing symbol 'J6:CONECTORES GRACIDA:16POS-2LINEAS-3.5PITCH'.
+Info: Processing symbol 'J7:CONECTORES GRACIDA:16POS-2LINEAS-3.5PITCH'.
+Info: Processing symbol 'R278:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R279:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R280:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R281:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R282:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'RV1:Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm'.
+Info: Processing symbol 'RV2:Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm'.
+Info: Processing symbol 'RV3:Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm'.
+Info: Processing symbol 'RV4:Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm'.
+Info: Processing symbol 'SW1:'.
+Info: Processing symbol 'T1:'.
+Info: Processing symbol 'TH2:TERMISTORES GRACIDA:B59985C0120A070'.
+Info: Processing symbol 'TH3:TERMISTORES GRACIDA:B59985C0120A070'.
+Info: Processing symbol 'TH5:TERMISTORES GRACIDA:B59985C0120A070'.
+Info: Processing symbol 'TH7:TERMISTORES GRACIDA:B59985C0120A070'.
+Info: Processing symbol 'TH9:TERMISTORES GRACIDA:B59985C0120A070'.
+Info: Processing symbol 'J9:CONECTORES GRACIDA:16POS-2LINEAS-3.5PITCH'.
+Info: Processing symbol 'TP1:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded'.
+Info: Processing symbol 'TP2:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded'.
+Info: Processing symbol 'TP3:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded'.
+Info: Processing symbol 'TP4:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded'.
+Info: Processing symbol 'TP5:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded'.
+Info: Processing symbol 'TP6:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded'.
+Info: Processing symbol 'TP7:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded'.
+Info: Processing symbol 'TP8:'.
+Info: Processing symbol 'TP9:'.
+Info: Processing symbol 'TP10:'.
+Info: Processing symbol 'TP11:'.
+Info: Processing symbol 'TP12:'.
+Info: Processing symbol 'TP13:'.
+Info: Processing symbol 'TP14:'.
+Info: Processing symbol 'TP15:'.
+Info: Processing symbol 'TP16:'.
+Info: Processing symbol 'J10:'.
+Info: Processing symbol 'TP17:'.
+Info: Processing symbol 'J11:Connector_RJ:RJ45_Wuerth_7499010211A_Horizontal'.
+Info: Processing symbol 'J12:'.
+Info: Processing symbol 'Q4:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'J15:CONECTORES GRACIDA:16POS-2LINEAS-3.5PITCH'.
+Info: Processing symbol 'TP18:'.
+Info: Processing symbol 'TP19:'.
+Info: Processing symbol 'TP20:'.
+Info: Processing symbol 'TP21:'.
+Info: Processing symbol 'TP22:'.
+Info: Processing symbol 'TP23:'.
+Info: Processing symbol 'TP24:'.
+Info: Processing symbol 'U1:footprints:LQFP_100_14X14X1P4_BRI'.
+Info: Processing symbol 'U2:MSOP:MSOP-16_MSE'.
+Info: Processing symbol 'U3:Package_TO_SOT_SMD:TO-252-2'.
+Info: Processing symbol 'U6:Package_SO:SSOP-28_5.3x10.2mm_P0.65mm'.
+Info: Processing symbol 'U8:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'U9:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'U10:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'U11:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'U12:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'J18:CONECTORES GRACIDA:1728810000'.
+Info: Processing symbol 'J19:'.
+Info: Processing symbol 'U13:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'J21:CONECTORES GRACIDA:16POS-2LINEAS-3.5PITCH'.
+Info: Processing symbol 'U14:Package_DFN_QFN:DFN-8-1EP_6x5mm_P1.27mm_EP4x4mm'.
+Info: Processing symbol 'U16:'.
+Info: Processing symbol 'U18:Package_SO:VSSOP-8_3x3mm_P0.65mm'.
+Info: Processing symbol 'U19:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'U21:MSOP:MSOP-16_MSE'.
+Info: Processing symbol 'U22:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'U23:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'.
+Info: Processing symbol 'U24:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'U25:'.
+Info: Processing symbol 'U26:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'.
+Info: Processing symbol 'U27:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'.
+Info: Processing symbol 'U28:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'U29:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'U30:Package_SO:VSSOP-8_3x3mm_P0.65mm'.
+Info: Processing symbol 'U31:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'U33:Package_SO:SSOP-28_5.3x10.2mm_P0.65mm'.
+Info: Processing symbol 'K1:Relay_THT:Relay_SPDT_Omron_G2RL-1'.
+Info: Processing symbol 'K2:Relay_THT:Relay_SPDT_Omron_G2RL-1'.
+Info: Processing symbol 'K3:Relay_THT:Relay_SPDT_Omron_G2RL-1'.
+Info: Processing symbol 'L1:INDUCTORES GRACIDA:INDM4532X320N'.
+Info: Processing symbol 'L3:INDUCTORES GRACIDA:744065100'.
+Info: Processing symbol 'L4:Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder'.
+Info: Processing symbol 'L5:INDUCTORES GRACIDA:744065100'.
+Info: Processing symbol 'L8:Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'L10:Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'L11:'.
+Info: Processing symbol 'U36:'.
+Info: Processing symbol 'L13:'.
+Info: Processing symbol 'U37:Package_SO:MSOP-16-1EP_3x4.039mm_P0.5mm_EP1.651x2.845mm_ThermalVias'.
+Info: Processing symbol 'L14:'.
+Info: Processing symbol 'U38:'.
+Info: Processing symbol 'L15:'.
+Info: Processing symbol 'U39:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'L16:'.
+Info: Processing symbol 'U40:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'L17:'.
+Info: Processing symbol 'U41:'.
+Info: Processing symbol 'L19:'.
+Info: Processing symbol 'U43:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'.
+Info: Processing symbol 'L21:Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+Info: Processing symbol 'L22:'.
+Info: Processing symbol 'U44:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'.
+Info: Processing symbol 'L23:Inductores_GSI:DLW43_MUR'.
+Info: Processing symbol 'L25:Inductores_GSI:SDR0906-3R9ML'.
+Info: Processing symbol 'U45:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'.
+Info: Processing symbol 'U48:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'.
+Info: Processing symbol 'U49:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'.
+Info: Processing symbol 'U50:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'.
+Info: Processing symbol 'Y1:'.
+Info: Processing symbol 'Y2:'.
+Info: Processing symbol 'P1:'.
+Info: Total warnings: 104, errors: 60.
+Info: Processing symbol 'PS1:Fuentes_GSI:REC15E-2412DZ'.
+Info: Processing symbol 'PS2:Fuentes_GSI:MGFW400512'.
+Info: Processing symbol 'Q2:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'Q3:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'R150:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'Q5:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'Q6:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'Q7:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'Q8:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'Q9:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'Q10:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'Q11:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'Q12:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'Q13:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R3:'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R7:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R8:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R9:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R10:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R11:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R12:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R13:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R14:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R15:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R16:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R17:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R18:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R19:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R20:Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder'.
+Info: Processing symbol 'R37:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R38:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R39:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R40:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R45:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R46:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R47:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R48:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R49:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R50:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R51:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R53:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R54:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R55:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R63:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R64:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R65:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R66:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R68:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R69:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R70:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R71:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R72:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R73:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R74:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R75:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R76:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R77:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R78:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R79:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R80:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R81:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R83:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R85:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R87:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R91:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R102:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R109:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R110:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R111:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R112:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R140:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R141:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R142:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R143:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R144:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R145:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R151:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R152:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R153:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R154:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R155:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R156:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R157:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R158:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R159:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R160:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R161:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R162:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R163:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R164:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R165:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R166:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R167:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R168:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R169:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R170:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R171:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R172:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R173:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R174:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R175:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R176:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R177:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R178:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R179:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R180:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R181:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R182:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R187:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R188:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R189:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R190:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R191:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R192:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R197:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R198:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R199:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R200:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R201:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R202:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R207:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R208:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R209:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R210:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R211:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R212:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R217:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R218:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R219:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R220:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R221:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R222:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'.
+Info: Processing symbol 'R223:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R224:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R225:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R226:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R227:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R228:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R229:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R230:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R231:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R232:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R233:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R234:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R235:Resistor_SMD:R_0603_1608Metric'.
+
+Update U1 fields.
+
+Warning: No net found for component J9 pad 1 (no pin 1 in symbol).
+Warning: No net found for component J15 pad 4 (no pin 4 in symbol).
+Warning: No net found for component J15 pad 10 (no pin 10 in symbol).
+Warning: No net found for component J15 pad 3 (no pin 3 in symbol).
+Warning: No net found for component J15 pad 11 (no pin 11 in symbol).
+Warning: No net found for component CN1 pad 3 (no pin 3 in symbol).
+Warning: No net found for component CN1 pad 2 (no pin 2 in symbol).
+Warning: No net found for component CN1 pad 8 (no pin 8 in symbol).
+Warning: No net found for component CN1 pad 9 (no pin 9 in symbol).
+Warning: No net found for component CN1 pad 10 (no pin 10 in symbol).
+Warning: No net found for component CN1 pad 1 (no pin 1 in symbol).
+Warning: No net found for component CN1 pad 4 (no pin 4 in symbol).
+Warning: No net found for component CN1 pad 5 (no pin 5 in symbol).
+Warning: No net found for component CN1 pad 7 (no pin 7 in symbol).
+Warning: No net found for component CN1 pad 6 (no pin 6 in symbol).
+Warning: No net found for component J15 pad 5 (no pin 5 in symbol).
+Warning: No net found for component J15 pad 8 (no pin 8 in symbol).
+Warning: No net found for component J15 pad 16 (no pin 16 in symbol).
+Warning: No net found for component J15 pad 7 (no pin 7 in symbol).
+Warning: No net found for component J15 pad 2 (no pin 2 in symbol).
+Warning: No net found for component J15 pad 6 (no pin 6 in symbol).
+Warning: No net found for component J*4 pad 10 (no pin 10 in symbol).
+Warning: No net found for component J*4 pad 8 (no pin 8 in symbol).
+Warning: No net found for component J*4 pad 14 (no pin 14 in symbol).
+Warning: No net found for component J*4 pad 4 (no pin 4 in symbol).
+Warning: No net found for component J*4 pad 12 (no pin 12 in symbol).
+Warning: No net found for component J*4 pad 15 (no pin 15 in symbol).
+Warning: No net found for component J*4 pad 7 (no pin 7 in symbol).
+Warning: No net found for component J*4 pad 1 (no pin 1 in symbol).
+Warning: No net found for component J*4 pad 6 (no pin 6 in symbol).
+Warning: No net found for component J*4 pad 5 (no pin 5 in symbol).
+Warning: No net found for component J*4 pad 11 (no pin 11 in symbol).
+Warning: No net found for component J*4 pad 2 (no pin 2 in symbol).
+Warning: No net found for component J*4 pad 13 (no pin 13 in symbol).
+Warning: No net found for component J*4 pad 16 (no pin 16 in symbol).
+Warning: No net found for component J*4 pad 9 (no pin 9 in symbol).
+Warning: No net found for component J*4 pad 3 (no pin 3 in symbol).
+Warning: No net found for component J15 pad 14 (no pin 14 in symbol).
+Warning: No net found for component J7 pad 7 (no pin 7 in symbol).
+Warning: No net found for component J7 pad 8 (no pin 8 in symbol).
+Warning: No net found for component J7 pad 2 (no pin 2 in symbol).
+Warning: No net found for component J7 pad 6 (no pin 6 in symbol).
+Warning: No net found for component J7 pad 14 (no pin 14 in symbol).
+Warning: No net found for component J7 pad 10 (no pin 10 in symbol).
+Warning: No net found for component J7 pad 3 (no pin 3 in symbol).
+Warning: No net found for component J7 pad 9 (no pin 9 in symbol).
+Warning: No net found for component J7 pad 5 (no pin 5 in symbol).
+Warning: No net found for component J7 pad 11 (no pin 11 in symbol).
+Warning: No net found for component J7 pad 15 (no pin 15 in symbol).
+Warning: No net found for component J7 pad 12 (no pin 12 in symbol).
+Warning: No net found for component J7 pad 16 (no pin 16 in symbol).
+Warning: No net found for component J7 pad 4 (no pin 4 in symbol).
+Warning: No net found for component J7 pad 13 (no pin 13 in symbol).
+Warning: No net found for component J9 pad 9 (no pin 9 in symbol).
+Warning: No net found for component J9 pad 5 (no pin 5 in symbol).
+Warning: No net found for component J9 pad 12 (no pin 12 in symbol).
+Warning: No net found for component J9 pad 14 (no pin 14 in symbol).
+Warning: No net found for component J9 pad 4 (no pin 4 in symbol).
+Warning: No net found for component J9 pad 6 (no pin 6 in symbol).
+Warning: No net found for component J9 pad 2 (no pin 2 in symbol).
+Warning: No net found for component J9 pad 3 (no pin 3 in symbol).
+Warning: No net found for component J9 pad 11 (no pin 11 in symbol).
+Warning: No net found for component J9 pad 8 (no pin 8 in symbol).
+Warning: No net found for component J9 pad 7 (no pin 7 in symbol).
+Warning: No net found for component J9 pad 10 (no pin 10 in symbol).
+Warning: No net found for component J9 pad 16 (no pin 16 in symbol).
+Warning: No net found for component J15 pad 9 (no pin 9 in symbol).
+Warning: No net found for component J15 pad 12 (no pin 12 in symbol).
+Warning: No net found for component J15 pad 15 (no pin 15 in symbol).
+Warning: No net found for component J15 pad 1 (no pin 1 in symbol).
+Warning: No net found for component J15 pad 13 (no pin 13 in symbol).
+Warning: No net found for component J21 pad 7 (no pin 7 in symbol).
+Warning: No net found for component J21 pad 6 (no pin 6 in symbol).
+Warning: No net found for component J21 pad 11 (no pin 11 in symbol).
+Warning: No net found for component J21 pad 8 (no pin 8 in symbol).
+Warning: No net found for component J21 pad 5 (no pin 5 in symbol).
+Warning: No net found for component J21 pad 2 (no pin 2 in symbol).
+Warning: No net found for component J7 pad 1 (no pin 1 in symbol).
+Warning: No net found for component J21 pad 4 (no pin 4 in symbol).
+Warning: No net found for component J21 pad 3 (no pin 3 in symbol).
+Warning: No net found for component J21 pad 14 (no pin 14 in symbol).
+Warning: No net found for component J21 pad 15 (no pin 15 in symbol).
+Warning: No net found for component J21 pad 10 (no pin 10 in symbol).
+Warning: No net found for component J21 pad 1 (no pin 1 in symbol).
+Warning: No net found for component J21 pad 9 (no pin 9 in symbol).
+Warning: No net found for component J21 pad 13 (no pin 13 in symbol).
+Warning: No net found for component J21 pad 16 (no pin 16 in symbol).
+Warning: No net found for component L25 pad 3 (no pin 3 in symbol).
+Warning: No net found for component L25 pad 6 (no pin 6 in symbol).
+Warning: No net found for component L25 pad 7 (no pin 7 in symbol).
+Warning: No net found for component J21 pad 12 (no pin 12 in symbol).
+Warning: No net found for component L25 pad 8 (no pin 8 in symbol).
+Warning: No net found for component L25 pad 2 (no pin 2 in symbol).
+Warning: No net found for component U37 pad 17 (no pin 17 in symbol).
+Warning: No net found for component U37 pad 17 (no pin 17 in symbol).
+Warning: No net found for component U37 pad 17 (no pin 17 in symbol).
+Warning: No net found for component U37 pad 17 (no pin 17 in symbol).
+Warning: No net found for component U37 pad 17 (no pin 17 in symbol).
+Warning: No net found for component U37 pad 17 (no pin 17 in symbol).
+Warning: No net found for component U37 pad 17 (no pin 17 in symbol).
+Warning: No net found for component U37 pad 17 (no pin 17 in symbol).
+Warning: No net found for component J9 pad 13 (no pin 13 in symbol).
+Warning: No net found for component J9 pad 15 (no pin 15 in symbol).
+Warning: No net found for component L25 pad 5 (no pin 5 in symbol).
+Error: Cannot add L13 (no footprint assigned).
+Error: Cannot add L14 (no footprint assigned).
+Error: Cannot add L15 (no footprint assigned).
+Error: Cannot add L16 (no footprint assigned).
+Error: Cannot add L17 (no footprint assigned).
+Error: Cannot add L19 (no footprint assigned).
+Error: Cannot add L22 (no footprint assigned).
+Error: Cannot add C124 (no footprint assigned).
+Error: Cannot add C148 (no footprint assigned).
+Error: Cannot add F1 (no footprint assigned).
+Error: Cannot add F2 (no footprint assigned).
+Error: Cannot add F4 (no footprint assigned).
+Error: Cannot add F5 (no footprint assigned).
+Error: Cannot add P1 (no footprint assigned).
+Error: Cannot add TP8 (no footprint assigned).
+Error: Cannot add TP18 (no footprint assigned).
+Error: Cannot add TH9 (footprint 'TERMISTORES GRACIDA:B59985C0120A070' not found).
+Error: Cannot update U21 (footprint 'MSOP:MSOP-16_MSE' not found).
+Error: Cannot add TP19 (no footprint assigned).
+Error: Cannot add F7 (no footprint assigned).
+Error: Cannot add TP20 (no footprint assigned).
+Error: Cannot add TH2 (footprint 'TERMISTORES GRACIDA:B59985C0120A070' not found).
+Error: Cannot add U25 (no footprint assigned).
+Error: Cannot add TP21 (no footprint assigned).
+Error: Cannot add TP10 (no footprint assigned).
+Error: Cannot add TP22 (no footprint assigned).
+Error: Cannot add SW1 (no footprint assigned).
+Error: Cannot add TP23 (no footprint assigned).
+Error: Cannot add TP11 (no footprint assigned).
+Error: Cannot add TP24 (no footprint assigned).
+Error: Cannot add TH3 (footprint 'TERMISTORES GRACIDA:B59985C0120A070' not found).
+Error: Cannot add U36 (no footprint assigned).
+Error: Cannot update U1 (footprint 'footprints:LQFP_100_14X14X1P4_BRI' not found).
+Error: Cannot add F3 (no footprint assigned).
+Error: Cannot add J10 (no footprint assigned).
+Error: Cannot add BT1 (no footprint assigned).
+Error: Cannot add C62 (no footprint assigned).
+Error: Cannot add C94 (no footprint assigned).
+Error: Cannot add C95 (no footprint assigned).
+Error: Cannot add TP9 (no footprint assigned).
+Error: Cannot add C99 (no footprint assigned).
+Error: Cannot add C122 (no footprint assigned).
+Error: Cannot add U38 (no footprint assigned).
+Error: Cannot add TP12 (no footprint assigned).
+Error: Cannot add J12 (no footprint assigned).
+Error: Cannot add TP13 (no footprint assigned).
+Error: Cannot add U41 (no footprint assigned).
+Error: Cannot add TH5 (footprint 'TERMISTORES GRACIDA:B59985C0120A070' not found).
+Error: Cannot add TP14 (no footprint assigned).
+Error: Cannot add T1 (no footprint assigned).
+Error: Cannot add TP15 (no footprint assigned).
+Error: Cannot add TH7 (footprint 'TERMISTORES GRACIDA:B59985C0120A070' not found).
+Error: Cannot add TP16 (no footprint assigned).
+Error: Cannot add R3 (no footprint assigned).
+Error: Cannot add Y1 (no footprint assigned).
+Error: Cannot add TP17 (no footprint assigned).
+Error: Cannot add Y2 (no footprint assigned).
+Error: Cannot add J19 (no footprint assigned).
+Error: Cannot add L11 (no footprint assigned).
+Error: Cannot add U16 (no footprint assigned).
+
+
+Info: Total warnings: 104, errors: 60.
