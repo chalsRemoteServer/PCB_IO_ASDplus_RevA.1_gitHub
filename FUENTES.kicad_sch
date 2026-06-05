@@ -4228,6 +4228,16 @@
 		)
 		(uuid "27f1f4a6-16d3-482a-a068-0b65381fcd31")
 	)
+	(text "revisar que sean iguales en el datasheet"
+		(exclude_from_sim no)
+		(at 196.85 106.172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "317b72bd-87ed-4905-b752-f7bbee690ece")
+	)
 	(text "power switch\n"
 		(exclude_from_sim no)
 		(at 66.04 127.508 0)
@@ -4247,6 +4257,16 @@
 			)
 		)
 		(uuid "b5be6a90-ed21-4726-afb1-54296972ba0e")
+	)
+	(text "REVISAR, AL ESTAR CONECTADO ASI, TODOS LOS GND SE VUELVEN -12VV"
+		(exclude_from_sim no)
+		(at 241.554 86.106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c05bb312-4281-442f-930f-9d4f3157ed4f")
 	)
 	(junction
 		(at 76.2 22.86)
@@ -7764,7 +7784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f53e55e-d049-4240-aeb8-83dffc4a838b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 30.48 105.41 0)
 			(effects
 				(font
@@ -7814,7 +7834,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/02316654-b7a5-4033-a293-af0194a6badf"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8265,7 +8285,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "SF-2410HI050T-2"
 			(at 216.408 81.28 90)
 			(effects
 				(font
@@ -8273,7 +8293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-451_453"
 			(at 217.17 86.868 90)
 			(effects
 				(font
@@ -8587,22 +8607,22 @@
 		(dnp no)
 		(uuid "24d9b36d-25c2-453a-b2f1-455ea850bdd3")
 		(property "Reference" "F2"
-			(at 111.76 83.058 90)
+			(at 111.252 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 112.014 80.772 90)
+		(property "Value" "SF-2410HI050T-2"
+			(at 112.522 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-451_453"
 			(at 115.57 80.518 90)
 			(effects
 				(font
@@ -8725,7 +8745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2859e30a-bc78-4a0e-af83-5fd294718fc6")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 43.18 158.75 0)
 			(effects
 				(font
@@ -8775,7 +8795,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/02316654-b7a5-4033-a293-af0194a6badf"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8858,7 +8878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b6983f9-2379-406a-9098-fb1de8d7a6e5")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 45.72 105.41 0)
 			(effects
 				(font
@@ -8908,7 +8928,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/02316654-b7a5-4033-a293-af0194a6badf"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9871,7 +9891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4522f42b-6cd9-44b6-9d8e-c442f3b64051")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 30.48 74.93 0)
 			(effects
 				(font
@@ -9925,7 +9945,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/02316654-b7a5-4033-a293-af0194a6badf"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10009,7 +10029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "467b2d97-6747-4205-a808-c2ce3a79ebd4")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 26.67 143.51 0)
 			(effects
 				(font
@@ -10059,7 +10079,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/02316654-b7a5-4033-a293-af0194a6badf"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10463,6 +10483,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f2c836c-decd-4058-afa9-3f815011da4d")
+		(property "Reference" "TP4"
+			(at 53.34 43.6879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 53.34 44.9579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6aa8798e-c02c-46f6-86d4-f60c4b9b6c58")
+		)
+		(instances
+			(project "01_IO-ASD-PLUS"
+				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/02316654-b7a5-4033-a293-af0194a6badf"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 194.31 40.64 0)
 		(unit 1)
@@ -10738,7 +10826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59276c70-4e8b-4584-9376-3d53e846afcd")
-		(property "Reference" "U21"
+		(property "Reference" "U1"
 			(at 91.44 120.65 0)
 			(effects
 				(font
@@ -10926,7 +11014,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/02316654-b7a5-4033-a293-af0194a6badf"
-					(reference "U21")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10942,7 +11030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c8fb8d0-883e-4a99-a1c3-0218a7cdc82b")
-		(property "Reference" "L25"
+		(property "Reference" "L2"
 			(at 58.42 33.655 0)
 			(effects
 				(font
@@ -11012,7 +11100,7 @@
 		(instances
 			(project ""
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/02316654-b7a5-4033-a293-af0194a6badf"
-					(reference "L25")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -11309,7 +11397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L26.5mm_W11.5mm_P22.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_FKS3_FKP3"
 			(at 130.81 81.28 0)
 			(effects
 				(font
@@ -11894,15 +11982,15 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 232.41 26.67 90)
+		(property "Value" "SF-2410HI050T-2"
+			(at 232.41 29.972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-451_453"
 			(at 227.33 27.178 90)
 			(effects
 				(font
@@ -13040,7 +13128,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "918e29a1-17ef-45aa-bf5a-4127e8b339c6")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 38.1 153.67 0)
 			(effects
 				(font
@@ -13090,7 +13178,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/02316654-b7a5-4033-a293-af0194a6badf"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13448,15 +13536,15 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 225.298 23.368 90)
+		(property "Value" "SF-2410HI050T-2"
+			(at 225.298 16.002 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-451_453"
 			(at 227.33 29.718 90)
 			(effects
 				(font
@@ -13508,22 +13596,23 @@
 		(dnp no)
 		(uuid "9c7ca40c-362f-479d-992b-1d0a3cf4b4c6")
 		(property "Reference" "F1"
-			(at 115.824 81.534 90)
+			(at 122.174 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 116.586 84.328 90)
+		(property "Value" "SF-2410HI050T-2"
+			(at 116.84 73.152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-451_453"
 			(at 115.57 76.708 90)
 			(effects
 				(font
@@ -13709,7 +13798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f7ee861-fdbc-4263-a7de-d3277c993bcf")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 39.37 81.28 0)
 			(effects
 				(font
@@ -13759,7 +13848,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/02316654-b7a5-4033-a293-af0194a6badf"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -13792,7 +13881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L26.5mm_W11.5mm_P22.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_FKS3_FKP3"
 			(at 127 81.28 0)
 			(effects
 				(font
@@ -14475,73 +14564,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 50.8 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b25e69e3-9787-46b8-b3e7-0432ebe3499c")
-		(property "Reference" "TP4"
-			(at 51.562 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 53.34 44.9579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 55.88 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 50.8 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad3f5118-1544-447f-bc52-fda4d6f9808b")
-		)
-		(instances
-			(project "01_IO-ASD-PLUS"
-				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/02316654-b7a5-4033-a293-af0194a6badf"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 26.67 124.46 0)
 		(unit 1)
@@ -14551,7 +14573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b331fbe0-c5d4-40ab-ad12-c77e4953acdb")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 26.67 128.27 0)
 			(effects
 				(font
@@ -14601,7 +14623,7 @@
 		(instances
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/02316654-b7a5-4033-a293-af0194a6badf"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
