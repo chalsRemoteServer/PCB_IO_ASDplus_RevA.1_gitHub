@@ -13158,7 +13158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:LQFP_100_14X14X1P4_BRI"
+		(property "Footprint" "Package_DFN_QFN:ArtInChip_QFN-100-1EP_12x12mm_P0.4mm_EP7.4x7.4mm_ThermalVias"
 			(at 106.68 22.86 0)
 			(effects
 				(font
@@ -15911,7 +15911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
 			(at -17.78 19.05 0)
 			(effects
 				(font
