@@ -7334,16 +7334,16 @@
 		(uuid "29c7c9eb-79cb-4d27-8c41-19a51223308a")
 	)
 	(junction
+		(at 186.69 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2af0c083-8b3d-476a-a8dd-0baccfec1e75")
+	)
+	(junction
 		(at 350.52 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b4619b0-7c94-453d-ad99-8f2a50946445")
-	)
-	(junction
-		(at 189.23 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "336f013f-a009-4f12-8308-d54595fb43ce")
 	)
 	(junction
 		(at 270.51 133.35)
@@ -8186,16 +8186,6 @@
 			(type default)
 		)
 		(uuid "0bc0a55d-c029-4f60-b194-ec1e11d50f04")
-	)
-	(wire
-		(pts
-			(xy 189.23 182.88) (xy 189.23 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cd376bb-d461-4e08-afb9-6cd2236cebc6")
 	)
 	(wire
 		(pts
@@ -11352,6 +11342,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 185.42) (xy 186.69 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d5838e-08f9-4b42-8a7c-5746b07bbf0f")
+	)
+	(wire
+		(pts
 			(xy 91.44 76.2) (xy 91.44 77.47)
 		)
 		(stroke
@@ -11761,7 +11761,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 175.26) (xy 189.23 175.26)
+			(xy 186.69 175.26) (xy 232.41 175.26)
 		)
 		(stroke
 			(width 0)
@@ -11788,6 +11788,16 @@
 			(type default)
 		)
 		(uuid "b2dc73fc-78d0-4920-9fc3-734c1ae400c0")
+	)
+	(wire
+		(pts
+			(xy 186.69 176.53) (xy 186.69 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32cf4a8-3f10-4c28-9d32-dd900f6082c7")
 	)
 	(wire
 		(pts
@@ -12780,16 +12790,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 175.26) (xy 232.41 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d85f2247-dd3f-4f44-a96a-0b1839bd7621")
-	)
-	(wire
-		(pts
 			(xy 246.38 36.83) (xy 248.92 36.83)
 		)
 		(stroke
@@ -13568,6 +13568,16 @@
 			(type default)
 		)
 		(uuid "fa5829e8-1493-4307-82b3-f2ff3cfeeccc")
+	)
+	(wire
+		(pts
+			(xy 152.4 198.12) (xy 152.4 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa5e7732-ac04-4564-b108-ba048f44dd17")
 	)
 	(wire
 		(pts
@@ -23305,7 +23315,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 189.23 184.15 0)
+		(at 186.69 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23313,7 +23323,7 @@
 		(dnp no)
 		(uuid "448b5d56-b3b3-43bf-b849-cc456486344b")
 		(property "Reference" "#PWR0114"
-			(at 189.23 190.5 0)
+			(at 186.69 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23322,7 +23332,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.548 183.896 0)
+			(at 191.008 185.166 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -23330,7 +23340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 184.15 0)
+			(at 186.69 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23339,7 +23349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 184.15 0)
+			(at 186.69 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23348,7 +23358,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 189.23 184.15 0)
+			(at 186.69 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24981,7 +24991,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 189.23 179.07 180)
+		(at 186.69 180.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24989,7 +24999,7 @@
 		(dnp no)
 		(uuid "5edf5d22-18a8-4f43-8ac8-a83357928a99")
 		(property "Reference" "R56"
-			(at 191.77 177.7999 0)
+			(at 189.23 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24998,7 +25008,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 190.754 180.34 0)
+			(at 188.214 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25007,7 +25017,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 188.214 178.816 90)
+			(at 185.674 180.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25016,7 +25026,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 179.07 0)
+			(at 186.69 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25025,7 +25035,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 189.23 179.07 0)
+			(at 186.69 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
