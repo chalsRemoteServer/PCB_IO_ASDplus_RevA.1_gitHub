@@ -12465,73 +12465,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 52.07 16.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37f3cec4-4d4b-4ceb-ba6f-b965dac7bcac")
-		(property "Reference" "C64"
-			(at 49.53 18.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 49.784 14.986 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 54.356 17.018 90)
-			(effects
-				(font
-					(size 0.5588 0.5588)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21cd6025-7899-450d-a484-7c2929d23cab")
-		)
-		(pin "1"
-			(uuid "1282dd66-3891-40a4-ab61-230a4dfb38eb")
-		)
-		(instances
-			(project "01_IO-ASD-PLUS"
-				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 261.62 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18318,6 +18251,72 @@
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
 					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 52.07 16.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f44d50ab-50e5-4a73-9cd9-832d3e44836d")
+		(property "Reference" "C64"
+			(at 49.784 18.288 0)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 49.784 14.986 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 52.07 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 53.086 19.304 90)
+			(effects
+				(font
+					(size 0.5588 0.5588)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e8a6172e-25b7-42e8-a513-6a0610ce4257")
+		)
+		(pin "1"
+			(uuid "8f6c73fc-5b6c-494c-a84e-8edcf82587d1")
+		)
+		(instances
+			(project "01_IO-ASD-PLUS"
+				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
+					(reference "C64")
 					(unit 1)
 				)
 			)
