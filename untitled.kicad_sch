@@ -2110,7 +2110,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 86.36) (xy 134.62 87.63)
+			(xy 138.43 83.82) (xy 138.43 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2128,6 +2128,16 @@
 			(color 255 73 219 1)
 		)
 		(uuid "b4aa63b4-ab5f-412e-9118-85850643d90f")
+	)
+	(wire
+		(pts
+			(xy 138.43 83.82) (xy 133.35 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5bd8f92-a5d9-4ed2-be55-7a786e2559c5")
 	)
 	(wire
 		(pts
@@ -2606,7 +2616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e5950cd-0145-4e67-91c5-2afae50db9f9")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0102"
 			(at 99.06 64.77 0)
 			(effects
 				(font
@@ -2659,7 +2669,7 @@
 		(instances
 			(project ""
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/2e698a92-0ed9-457a-8ea3-5be56f6a1bd4"
-					(reference "#PWR02")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -3293,7 +3303,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 134.62 87.63 0)
+		(at 138.43 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3301,8 +3311,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8baeed81-b6d3-4321-ac35-a7076184790a")
-		(property "Reference" "#PWR03"
-			(at 134.62 93.98 0)
+		(property "Reference" "#PWR0103"
+			(at 138.43 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,7 +3321,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 92.71 0)
+			(at 138.43 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +3329,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 87.63 0)
+			(at 138.43 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +3338,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 87.63 0)
+			(at 138.43 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +3347,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 134.62 87.63 0)
+			(at 138.43 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,7 +3361,7 @@
 		(instances
 			(project ""
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/2e698a92-0ed9-457a-8ea3-5be56f6a1bd4"
-					(reference "#PWR03")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
