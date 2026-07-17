@@ -5598,7 +5598,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SOIC:SOIC 8"
 			(at 59.69 40.64 0)
 			(effects
 				(font
