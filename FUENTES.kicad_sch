@@ -4230,10 +4230,13 @@
 	)
 	(text "revisar que sean iguales en el datasheet"
 		(exclude_from_sim no)
-		(at 196.85 106.172 0)
+		(at 223.774 105.41 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 3.048 3.048)
+				(thickness 0.6096)
+				(bold yes)
+				(color 255 0 0 1)
 			)
 		)
 		(uuid "317b72bd-87ed-4905-b752-f7bbee690ece")
@@ -4263,7 +4266,10 @@
 		(at 241.554 86.106 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
 			)
 		)
 		(uuid "c05bb312-4281-442f-930f-9d4f3157ed4f")

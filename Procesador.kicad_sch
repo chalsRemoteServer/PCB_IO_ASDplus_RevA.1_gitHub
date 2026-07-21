@@ -5,7 +5,7 @@
 	(uuid "94a65f46-1590-4cf6-96fc-7dd060227c52")
 	(paper "A4")
 	(lib_symbols
-		(symbol "CONECTORES GRACIDA:1-215079-0_microMatch10P_1.27mm"
+		(symbol "1-215079-0_microMatch10P_1.27mm_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -79,7 +79,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1-215079-0_microMatch10P_1.27mm_0_1"
+			(symbol "1-215079-0_microMatch10P_1.27mm_1_0_1"
 				(circle
 					(center -2.032 -2.032)
 					(radius 1.2952)
@@ -195,7 +195,7 @@
 					)
 				)
 			)
-			(symbol "1-215079-0_microMatch10P_1.27mm_1_1"
+			(symbol "1-215079-0_microMatch10P_1.27mm_1_1_1"
 				(polyline
 					(pts
 						(xy 2.032 -8.128) (xy 0.762 -10.668) (xy 3.302 -10.668) (xy 2.032 -8.128)
@@ -219,7 +219,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -237,7 +237,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -255,7 +255,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -273,7 +273,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -291,7 +291,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -309,7 +309,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -327,7 +327,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -345,7 +345,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -363,7 +363,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "10"
 						(effects
 							(font
 								(size 0.5588 0.5588)
@@ -381,7 +381,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10898,147 +10898,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CONECTORES GRACIDA:1-215079-0_microMatch10P_1.27mm")
-		(at 19.05 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "000e6fcb-e0fe-4643-9358-7207e3d920b5")
-		(property "Reference" "CN1"
-			(at 28.194 84.582 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10way 1.27mm"
-			(at 34.798 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CONECTORES GRACIDA:MicroMatch_10way_P1.75mm"
-			(at 38.608 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=215079&DocType=Customer+Drawing&DocLang=English&PartCntxt=1-215079-0&DocFormat=pdf"
-			(at 24.13 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10way 1.27mm microMatch"
-			(at 28.448 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "571-12150790"
-			(at 18.542 61.976 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "17-1-215079-0TR-ND"
-			(at 26.416 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "1.14"
-			(at 14.986 64.008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "Micro-Match Female"
-			(at 29.464 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 255 255 0 1)
-				)
-			)
-		)
-		(property "Field9" "Debug Port"
-			(at 24.384 88.138 0)
-			(effects
-				(font
-					(size 1.6764 1.6764)
-					(thickness 0.3353)
-					(bold yes)
-				)
-			)
-		)
-		(pin ""
-			(uuid "2bc6795d-eb53-4b4c-a13c-7f6e50009cd4")
-		)
-		(pin ""
-			(uuid "1860d75a-ae7a-435a-a2bb-118a79de54b2")
-		)
-		(pin ""
-			(uuid "7969a673-e725-4b92-b988-6b7506eaf834")
-		)
-		(pin ""
-			(uuid "7b5f468c-54fc-41aa-bdf8-72d6ffc7e777")
-		)
-		(pin ""
-			(uuid "1b9b9d51-84b1-4a2e-922e-1a5c6849dd5b")
-		)
-		(pin ""
-			(uuid "bf39a933-b620-4549-8d67-2a3e644bb0b8")
-		)
-		(pin ""
-			(uuid "48663d4b-faba-481d-944b-e36c68446087")
-		)
-		(pin ""
-			(uuid "6fe72ff3-fd77-4d54-94a3-ad3dec2bd09d")
-		)
-		(pin ""
-			(uuid "5ebd457e-340d-4385-aea8-6e0e1ceb5b9a")
-		)
-		(pin ""
-			(uuid "acb87dee-47e5-4c72-9af6-87fee7921c34")
-		)
-		(instances
-			(project ""
-				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "CN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 267.97 90.17 0)
 		(unit 1)
@@ -15684,72 +15543,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 58.42 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9cfbe073-1b5f-4aa9-8cc8-4594ee9eb665")
-		(property "Reference" "C68"
-			(at 55.372 110.744 90)
-			(effects
-				(font
-					(size 0.5588 0.5588)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 59.69 110.236 90)
-			(effects
-				(font
-					(size 0.8382 0.8382)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 56.388 111.506 90)
-			(effects
-				(font
-					(size 0.5588 0.5588)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cadd9d9b-c696-443d-851c-940ca51d3ca0")
-		)
-		(pin "1"
-			(uuid "d02454e7-e2b6-4cf4-bc69-12aa93ce6e8f")
-		)
-		(instances
-			(project "01_IO-ASD-PLUS"
-				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
-					(reference "C68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 203.2 60.96 270)
 		(unit 1)
@@ -15974,6 +15767,127 @@
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
 					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "1-215079-0_microMatch10P_1.27mm_1")
+		(lib_id "CONECTORES GRACIDA:1-215079-0_microMatch10P_1.27mm")
+		(at 19.05 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af9897e7-4c11-4cf8-808d-ef81e7683bee")
+		(property "Reference" "CN1"
+			(at 28.702 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10way 1.27mm"
+			(at 45.72 77.2794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONECTORES GRACIDA:MicroMatch_10way_P1.75mm"
+			(at 38.608 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=215079&DocType=Customer+Drawing&DocLang=English&PartCntxt=1-215079-0&DocFormat=pdf"
+			(at 24.13 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10way 1.27mm microMatch"
+			(at 28.448 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "571-12150790"
+			(at 18.542 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "17-1-215079-0TR-ND"
+			(at 26.416 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.14"
+			(at 14.986 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "43dd40a5-5843-4b93-97ca-b5fa68f1100e")
+		)
+		(pin "9"
+			(uuid "b5030c7d-43c6-4a4c-b525-635522cb7bd8")
+		)
+		(pin "1"
+			(uuid "306ab264-ba8b-4045-bb49-a3ccb31fddde")
+		)
+		(pin "4"
+			(uuid "b84eb8d6-68f3-42ec-b2c3-7f1688d180e6")
+		)
+		(pin "6"
+			(uuid "a35a4ec6-1777-4fab-a425-28ec571142fd")
+		)
+		(pin "5"
+			(uuid "73dac50c-a06c-4dac-93d1-abdb4ea1a83f")
+		)
+		(pin "7"
+			(uuid "ca40d3e2-aef2-4053-98b4-098acf321ee2")
+		)
+		(pin "2"
+			(uuid "45a99ced-5848-4e2a-b817-0d239fae50c7")
+		)
+		(pin "3"
+			(uuid "4d04bcc4-f215-41db-a688-b80bde35c21b")
+		)
+		(pin "10"
+			(uuid "55390823-d1a4-4475-8b0b-7065d8c44cee")
+		)
+		(instances
+			(project ""
+				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
+					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -17439,6 +17353,72 @@
 			(project "01_IO-ASD-PLUS"
 				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
 					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 58.42 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da5ee8d6-3ae7-4ba1-9dc4-180945472037")
+		(property "Reference" "C68"
+			(at 57.658 110.744 90)
+			(effects
+				(font
+					(size 0.5588 0.5588)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 57.15 115.316 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 58.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 56.388 111.506 90)
+			(effects
+				(font
+					(size 0.5588 0.5588)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20c0d742-81d7-46c7-ba39-e4626dd99902")
+		)
+		(pin "1"
+			(uuid "c9aab552-c3d0-4156-a7ee-22b4b09a13b5")
+		)
+		(instances
+			(project "01_IO-ASD-PLUS"
+				(path "/38a2da3c-ed29-422f-ab41-066ccf490e61/47b626b2-f3da-43c3-a614-3ce0196b783a"
+					(reference "C68")
 					(unit 1)
 				)
 			)
