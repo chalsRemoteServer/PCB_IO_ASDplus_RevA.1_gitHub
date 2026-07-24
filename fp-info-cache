@@ -1,4 +1,4 @@
-26838071667782398
+26841641171818698
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2904,6 +2904,13 @@ Untitled
 0
 0
 0
+CONECTORES GRACIDA
+WE-RJ45LAN
+WE-RJ45LAN
+Connector
+0
+14
+14
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -99602,6 +99609,13 @@ Thermistor
 0
 2
 2
+TRANSFORMADORES GRACIDA
+TRANFORMADOR_1001C
+1001C-2
+Transformer
+0
+4
+4
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf

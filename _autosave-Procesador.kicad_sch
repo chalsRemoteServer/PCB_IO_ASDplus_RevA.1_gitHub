@@ -8515,6 +8515,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 139.7) (xy 91.44 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a15b6ca-c99d-410f-ad57-bc61225557b9")
+	)
+	(wire
+		(pts
 			(xy 256.54 62.23) (xy 256.54 68.58)
 		)
 		(stroke
@@ -9284,7 +9294,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 142.24) (xy 91.44 143.51)
+			(xy 91.44 144.78) (xy 91.44 146.05)
 		)
 		(stroke
 			(width 0)
@@ -12271,7 +12281,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 91.44 139.7 0)
+		(at 91.44 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12279,7 +12289,7 @@
 		(dnp no)
 		(uuid "35122ec4-8fcf-419a-9249-7fb45efc9898")
 		(property "Reference" "C69"
-			(at 86.614 139.7 0)
+			(at 86.614 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12287,7 +12297,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 92.202 135.636 0)
+			(at 92.202 138.176 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12295,7 +12305,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 91.44 139.7 0)
+			(at 91.44 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12304,7 +12314,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 139.7 0)
+			(at 91.44 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12313,7 +12323,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 89.154 140.716 90)
+			(at 89.154 143.256 90)
 			(effects
 				(font
 					(size 0.8382 0.8382)
@@ -18385,7 +18395,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 91.44 143.51 0)
+		(at 91.44 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18393,7 +18403,7 @@
 		(dnp no)
 		(uuid "f618bd40-ef99-45e2-b8b9-bfe3d576f948")
 		(property "Reference" "#PWR0304"
-			(at 91.44 149.86 0)
+			(at 91.44 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18402,7 +18412,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.392 145.034 0)
+			(at 88.392 147.574 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -18410,7 +18420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 143.51 0)
+			(at 91.44 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18419,7 +18429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 143.51 0)
+			(at 91.44 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18428,7 +18438,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 91.44 143.51 0)
+			(at 91.44 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
